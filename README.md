@@ -1,6 +1,12 @@
 # Scientific writing
 
+## proposal
 
+### motivation
+
+- what is the biologial problem
+- why is AI needed
+- what computational problems will be solved (i.e. methodological contribution)
 
 ## Biomedical paper
 
