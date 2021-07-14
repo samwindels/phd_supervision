@@ -2,11 +2,6 @@
 
 ## General
 
-### Motivation 
-- what is the biologial problem
-- why is AI needed
-- what computational problems will be solved (i.e. methodological contribution)
-
 ### Who is the audience
 
 #### Computer scientists
@@ -17,6 +12,22 @@
 #### Biologists
 - Want to solve a biologial research question
 - output (of bioinformatics) is a hypothesis. e.g. gene predictions
+
+
+### Motivation 
+- What is the biologial problem/research question
+  For us, these are typically in the realm of precision medecine: 
+  * drug reporposing
+  * patient stratification
+  * biomarker discovery
+- Why is AI needed
+  Because omics/medial data is big data: cannot be analysed/interpreted by practitioners anymore
+- What computational problems will be solved (i.e. methodological contribution)
+  For instance:
+  * a new model, include new data
+  * new way of extracting knowledge
+
+
 
 ## proposal
 
