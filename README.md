@@ -46,3 +46,9 @@
 Ten Simple Rules for Better Figures
 Nicolas P. Rougier, Michael Droettboom, Philip E. Bourne
 PLOS Computational Biology,
+
+How to Write a Good
+Scientific Paper
+Chris A. Mack
+
+The Principles of Biomedical Scientific Writing: Introduction/Methods/Results/Conclusion
