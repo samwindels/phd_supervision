@@ -39,6 +39,8 @@
 
 ## Paper review (for journal submission)
 
+if minor revisions: also focus on typos and small detail. if major revision, don't focus too much on it as it will have to be rewritten anyway. 
+
 ##  Literature review
 
 ## References
