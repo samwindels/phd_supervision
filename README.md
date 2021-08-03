@@ -43,6 +43,12 @@ if minor revisions: also focus on typos and small detail. if major revision, don
 
 ##  Literature review
 
+## Response letter to review
+
+It is a formal letter. The aim is to convice the reviewer that their issues are resolved. 
+
+In the case of requested additonal experiments. If possible, include them in the discussion as potential future work. 
+
 ## References
 
 Ten Simple Rules for Better Figures
