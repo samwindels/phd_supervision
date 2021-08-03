@@ -48,6 +48,10 @@ if minor revisions: also focus on typos and small detail. if major revision, don
 It is a formal letter. The aim is to convice the reviewer that their issues are resolved. 
 
 In the case of requested additonal experiments. If possible, include them in the discussion as potential future work. 
+This document should be self contained, i.e. the reviewer should not have to reopen the manuscript. For instance, when fixign a typo:
+
+This typo was removed from the manuscript. The complete sentence now reads: “...”.
+
 
 ## References
 
