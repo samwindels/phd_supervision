@@ -4,6 +4,8 @@
 
 ### Who is the audience
 
+### What is the goal
+
 #### Computer scientists
 - Computational contributions 
   * new algorithms
@@ -52,6 +54,9 @@ This document should be self contained, i.e. the reviewer should not have to reo
 
 This typo was removed from the manuscript. The complete sentence now reads: “...”.
 
+# Visualisation
+
+- tufte presentation: https://vimeo.com/216639831
 
 ## References
 
