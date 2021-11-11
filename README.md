@@ -15,3 +15,8 @@ underlying skills: zooming (know when to take a detailed or a higher level view)
 traits: independence, initiative, 
 
 and provide resourses to achieve those goals
+
+
+problem -> underlying cause -> suggested fix (i.e. design methodology) -> evaluate (has problem been fixed).
+
+observation -> infer, i.e. what does it mean -> is further validation needed -> design experiment -> evaluate
