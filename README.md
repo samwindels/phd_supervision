@@ -17,7 +17,7 @@ traits: independence, initiative,
 and provide resourses to achieve those goals
 
 
-problem -> underlying cause -> suggested fix (i.e. design methodology) -> evaluate (has problem been fixed).
+problem -> hypothetical underlying cause -> suggested fix (i.e. design methodology) -> evaluate (has problem been fixed).
 
 observation -> infer, i.e. what does it mean -> is further validation needed -> design experiment -> evaluate
 
@@ -26,3 +26,75 @@ questions: mostly about direction, very general
 
 meetings with post doc: allows for more technical detail 
 questions: can be technical, direction within the scope of the project
+
+Group level:
+
+
+
+Paper level:
+
+iCell:
+
+Observation/Problem: 
+1: molecular data is comlementary
+2: cancer drivers are not differentialle expressed, i.e. they are expressed both in healthy and cancerous cell
+Hypothesis about underlying cause: cancer drivers have a changing functional role in the cell
+Methodology: the function of a gene in the ppi is linked to topology, so, we will use the most rewired genes between case and control as a measure for largest functional change
+To boost the signal, because the PPI is incomplete + different molecular networks contain complementary information, we apply the above heuristic in an integrated cell.
+Evaluate: the prioritised genes are enriched in cancer drivers 
+Conclusion: good first indication that I capture cancer signal. Can we take it further? -> wet lab validation + patient survival analysis (+pan cancer analysis)
+
+biological contribution: identify cancer drivers not based on differential expression but network topology
+methodological contrigution: 
+- the (concept!) of the integrated cell to better capture the organisation of the cell. 
+- the use of rewiring to predict drivers
+        
+
+Experiment level:
+
+Experiment vs methodology:
+
+With an experiment, we have a problem, hypothesis, methodology (how to do something + how you will evaluate) + parameters, evaluation of results, conclusion 
+
+Methodology: the set of tools you need to perform your experiment. E.g. NMTF, hypergeometric test.
+
+ICELL experiment 1:
+Problem/observation: topology and function are enherently linked. I want to characterise the topology of icell. 
+Underlying idea: we measure the topological distance between icell and model networks. the least distance means this is the most likely model for icell
+Methodology: NMTF + gcd 11 + 7 model networks
+Evaluation: no model network fits for icell. For each molecular network, we have some models that fit.
+Conclusion: We don't have a good model for icell. But it also defenitely is not random as it is far away from ER.
+
++ in supplement we show the topology is also different from the constituent networks, so it is a consequence of the fusion
+
+ICELL experiment 2:
+
+Problem/observation: I want to know how well icell captures the functional organisation of the cell.
+Hypothesis/underlying idea: I better capture the organisation of the cell if I get better functional enrichments:
+Method: I interpret NMTF as a hard clustering procedure and compute enrichment using the hypergeometric test checking for GO-BP enrichment.
+        I consider a enrichment better if I get a higher percentage of clusters enriched/percentage of go terms enriched/
+Evaluate: Icell has the highest percentage of enriched genes
+Conclusion: fusion of the three ppi networks captures functional information not captured by the constituent networks. icell best captures the functional organisation of the cell. 
+
+ICELL experiment 3:
+
+Problem: what charactrises cancer drivers based on their enrichment
+Underlying idea:
+method: check set of upregulated expressed, downregulated, always espressed and never expressed in terms of driver enrichment
+evaluate: only always expressed is enriched
+Conclusion: cancer drivers tend to be always expressed
+
+ICELL experiment 4:
+
+Problem/observation: cancer drivers tend to be always expressed -> can we narrow this further down
+Hypothesis: considering there is a role between wiring and functionality, can I identify drivers based on their rewiring (in the set of always expressed genes)?
+methodology: GCD similarity + driver enrichment
+evaluate: top 500 is enriched. not the case for constituent networks.
+Conclusion: thanks to the better capturing of function via icell, we can predict cancer drivers based on their rewiring. 
+
++ further drive home we really are capturing cancer:
+ -> with literature curration we find the top 20 most rewired genes makes sense
+ -> survival analysis 
+ -> wet lab experiments
+
+(pan cancer analysis)
