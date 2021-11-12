@@ -30,6 +30,14 @@ questions: can be technical, direction within the scope of the project
 Group level:
 
 
+paradigm shifts:
+
+functional/disease annotation -> from finding differentially expressed genes in a network or using network neighbourhoods to using topology, i.e. graphlets
+homology based on sequence similarity -> homology based on network similarity (i.e. network alignment)
+analysing networks individually -> integrate them to capture more meaning that is in them individually
+embedding based analysis -> embeddings should be based on certain principles (i.e. orthogonality) to allow us to define operations in this space (i.e. interpretable ai)
+sequence similarity -> higher order organisation of the DNA based on PMI
+
 
 Paper level:
 
