@@ -1,1 +1,12 @@
 * DATA
+
+
+
+#+CAPTION: Different types of biological data
+| Data type                        | Network | Nodes | Edges | Database | Script |
+|----------------------------------+---------+-------+-------+----------+--------|
+| Molecular interactions           |         |       |       |          |        |
+|----------------------------------+---------+-------+-------+----------+--------|
+| Functional associations          |         |       |       |          |        |
+|----------------------------------+---------+-------+-------+----------+--------|
+| Functional/structural similarity |         |       |       |          |        |
