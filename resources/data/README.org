@@ -4,7 +4,7 @@
 |----------------------------------+---------+-------+-------------------------------+-----------+--------------------------------------|
 | Data type                        | Network | Nodes | Edges                         | Database  | Script                               |
 |----------------------------------+---------+-------+-------------------------------+-----------+--------------------------------------|
-| Molecular interactions           | PPI     | genes | physical interaction          | [[https://thebiogrid.org/][BioGRID]]   | [[../scripts/biogrid.py][biogrid.py] |
+| Molecular interactions           | PPI     | genes | physical interaction          | [[https://thebiogrid.org/][BioGRID]]   | [[../scripts/biogrid.py][biogrid.py]] |
 |----------------------------------+---------+-------+-------------------------------+-----------+--------------------------------------|
 | Functional associations          | GI      | genes | genetic interaction           | [[https://thebiogrid.org/][BioGRID]]   |                                      |
 |----------------------------------+---------+-------+-------------------------------+-----------+--------------------------------------|
