@@ -1,13 +1,14 @@
-* DATA
+* Data
 
 
 
 #+CAPTION: Different types of biological data
-| Data type                        | Network | Nodes | Edges                | Database                            | Script |
-|----------------------------------+---------+-------+----------------------+-------------------------------------+--------+
-| Molecular interactions           | PPI     | genes | physical interaction | [[https://thebiogrid.org/][BioGRID]] |        |
-|                                  | GI      | genes | genetic interaction  | [[https://thebiogrid.org/][BioGRID]] |        |
-|----------------------------------+---------+-------+----------------------+-------------------------------------+--------+
-| Functional associations          |         |       |                      |                                     |        |
-|----------------------------------+---------+-------+----------------------+-------------------------------------+--------+
-| Functional/structural similarity |         |       |                      |                                     |        |
+|----------------------------------+---------+-------+-------------------------------+-----------+--------|
+| Data type                        | Network | Nodes | Edges                         | Database  | Script |
+|----------------------------------+---------+-------+-------------------------------+-----------+--------|
+| Molecular interactions           | PPI     | genes | physical interaction          | [[https://thebiogrid.org/][BioGRID]]   |        |
+|----------------------------------+---------+-------+-------------------------------+-----------+--------|
+| Functional associations          | GI      | genes | genetic interaction           | [[https://thebiogrid.org/][BioGRID]]   |        |
+|----------------------------------+---------+-------+-------------------------------+-----------+--------|
+| Functional/structural similarity | COEX    | genes | expression profile similarity | [[https://coxpresdb.jp/download/][COXPRESdb]] |        |
+|----------------------------------+---------+-------+-------------------------------+-----------+--------|
