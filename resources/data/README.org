@@ -5,8 +5,8 @@
 #+CAPTION: Different types of biological data
 | Data type                        | Network | Nodes | Edges                | Database                            | Script |
 |----------------------------------+---------+-------+----------------------+-------------------------------------+--------+
-| Molecular interactions           | PPI     | genes | physical interaction | [[https://thebiogrid.org/][BioGRID] |        |
-|                                  | GI      | genes | genetic interaction  | [[https://thebiogrid.org/][BioGRID] |        |
+| Molecular interactions           | PPI     | genes | physical interaction | [[https://thebiogrid.org/][BioGRID]] |        |
+|                                  | GI      | genes | genetic interaction  | [[https://thebiogrid.org/][BioGRID]] |        |
 |----------------------------------+---------+-------+----------------------+-------------------------------------+--------+
 | Functional associations          |         |       |                      |                                     |        |
 |----------------------------------+---------+-------+----------------------+-------------------------------------+--------+
