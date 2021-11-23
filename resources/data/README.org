@@ -8,5 +8,5 @@
 |----------------------------------+---------+-------+-------------------------------+-----------+------------|
 | Functional associations          | GI      | genes | genetic interaction           | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
 |----------------------------------+---------+-------+-------------------------------+-----------+------------|
-| Functional/structural similarity | COEX    | genes | expression profile similarity | [[https://coxpresdb.jp/download/][COXPRESdb]] |            |
+| Functional/structural similarity | COEX    | genes | expression profile similarity | [[https://coxpresdb.jp/download/][COXPRESdb]] | NA         |
 |----------------------------------+---------+-------+-------------------------------+-----------+------------|
