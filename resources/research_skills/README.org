@@ -1,4 +1,4 @@
-* Communication Skills
+* Research Skills
 
 problem -> hypothetical underlying cause -> suggested fix (i.e. design methodology) -> evaluate (has problem been fixed).
 
