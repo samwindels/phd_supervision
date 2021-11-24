@@ -12,12 +12,18 @@ of the database it has been tested on and your name (so we know who to
 contact if something is not clear).
 
 #+CAPTION: Different types of biological data
-|----------------------------------+---------+-------+-------------------------------+-----------+------------|
-| Data type                        | Network | Nodes | Edges                         | Database  | Script     |
-|----------------------------------+---------+-------+-------------------------------+-----------+------------|
-| Molecular interactions           | PPI     | genes | physical interaction          | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
-|----------------------------------+---------+-------+-------------------------------+-----------+------------|
-| Functional associations          | GI      | genes | genetic interaction           | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
-|----------------------------------+---------+-------+-------------------------------+-----------+------------|
-| Functional/structural similarity | COEX    | genes | expression profile similarity | [[https://coxpresdb.jp/download/][COXPRESdb]] | [[scripts/coexdb.py][coexdb.py]] |
-|----------------------------------+---------+-------+-------------------------------+-----------+------------|
+|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
+| Data type                        | Network | Nodes            | Edges                                 | Database  | Script     |
+|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
+| Molecular interactions           | PPI     | genes            | physical interaction                  | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
+|                                  | DTI     | Drugs & genes    | drugs binding to genes                | [[http://ctdbase.org/][CTD]]       |            |
+|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
+| Functional associations          | GI      | genes            | genetic interaction                   | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
+|                                  | DG      | diseases & genes | disease-gene associations             | [[https://www.disgenet.org/][DisGeNET]]  |            |
+|                                  | DG      | diseases & genes | disease-gene associations             | [[http://ctdbase.org/][CTD]]       |            |
+|                                  | DD      | diseases & drugs | disease-drug associations             | [[http://ctdbase.org/][CTD]]       |            |
+|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
+| Functional/structural similarity | COEX    | genes            | expression profile similarity         | [[https://coxpresdb.jp/download/][COXPRESdb]] | [[scripts/coexdb.py][coexdb.py]]  |
+|                                  | D       | diseases         | disease-disease associations          | [[https://www.disgenet.org/][DisGeNET]]  |            |
+|                                  | DV      | diseases         | disease-disease variants associations | [[https://www.disgenet.org/][DisGeNET]]  |            |
+|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
