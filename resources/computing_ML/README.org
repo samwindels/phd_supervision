@@ -1,1 +1,11 @@
-* Computing Machine Learning* Computing Machine Learning
+* Computing: Machine Learning
+
+TODO:
+- an NMTF directory
+  - important NMTF references
+  - an example script
+
+- add a graphlet directory
+  - most important graphlet papers
+  - add some scripts to compute the most important graphlet based features and metrics
+
