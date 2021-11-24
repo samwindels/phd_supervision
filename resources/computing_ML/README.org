@@ -1,4 +1,4 @@
-* Computing: Machine Learning
+* Machine Learning
 
 TODO:
 - an NMTF directory
