@@ -1,7 +1,7 @@
 * Data
 
-In this directory, you find an overview of biological data. If available,
-scripts for processing the data to networks are provided in the scripts directory.
+In this directory, you can find an overview of biological data. If available,
+scripts for processing the data into networks are provided in the scripts directory.
 
 Most importantly, use the provided scripts as a starting point. The
 scripts are not guaranteed to be bug-free (yet), so any bugs are your responsibility when using these scripts. As a PhD student, when you use these scripts, you are expected to understand what each line of code does and, crucially, what your network represents (e.g., what do the edges represent, what are the assumptions made).  Lastly, if you do find a bug, please fix them in this repository.
