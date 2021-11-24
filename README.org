@@ -1,10 +1,10 @@
-# Towards a better PhD 
+* Towards a better PhD 
 
-## Audience
+** Audience
 
 PhD students and their post-doc supervisors
 
-## Goal
+** Goal
 
 
 Define the role (i.e. expectations, responsibilities, rights, ...) for PhD students and their Post-Doc supervisors,
