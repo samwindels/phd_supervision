@@ -1,5 +1,22 @@
 * Data
 
+In this directory you find an overview biological data. If available,
+scripts for processing the data to networks are provided in the scripts directory.
+
+Most importantly, use the provided scripts as a starting point. The
+scripts are not guaranteed to be bug free (yet), so any bugs are your
+responsibility. As a PhD student, when you use these scripts, you are
+expected to understand what each line of code does and, crucially,
+what your network represents (i.e., what do the edges represent, what
+are the assumptions being made, ...).  Lastly, if you do find a bug,
+please fix them in this repository.
+
+To anyone adding scripts, please update the table below and, in the
+scripts, add a description of what the script does, the version number
+of the database it has been tested on and your name (so we know who to
+contact if something is not clear).
+
+
 #+CAPTION: Different types of biological data
 |----------------------------------+---------+-------+-------------------------------+-----------+------------|
 | Data type                        | Network | Nodes | Edges                         | Database  | Script     |
