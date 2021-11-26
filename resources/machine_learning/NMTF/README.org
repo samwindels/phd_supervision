@@ -1,7 +1,7 @@
 * Non-negative Matrix Tri-Factorisation
 
 
-** Key references 
+** Key references
 
 In the table below, we present some key reading for NMTF, approaching
 it from an algorithmic perspective (i.e., not considering key
