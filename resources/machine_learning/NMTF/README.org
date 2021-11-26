@@ -1,10 +1,31 @@
 * Non-negative Matrix Tri-Factorisation
 
-#+OPTIONS: \n:t
-|--------------------------------------------------------------------+----------------------------------------------------------------------+------------------------------------+-------+---------------|
-| Title                                                              | Relevance                                                            | Author                             | Group | DOI           |
-|--------------------------------------------------------------------+----------------------------------------------------------------------+------------------------------------+-------+---------------|
-| Learning the parts of objects by non-negative matrix factorization | 1. introduces multiplicative update rules 2. relates NMF, PCA and VQ | Daniel D. Lee & H. Sebastian Seung |       | [[http://doi.org/10.1038/44565][10.1038/44565]] |
-|                                                                    |                                                                      |                                    |       |               |
-|--------------------------------------------------------------------+----------------------------------------------------------------------+------------------------------------+-------+---------------|
 
+** Key references 
+
+In the table below, we present some key reading for NMTF, approaching
+it from an algorithmic perspective (i.e., not considering key
+applications).
+
+|--------------------------------------------------------------------------+----------------------------------------------------------------------+------------------------------------+------+----------------------------|
+| Title                                                                    | Relevance                                                            | Group                              | Year | DOI                        |
+|--------------------------------------------------------------------------+----------------------------------------------------------------------+------------------------------------+------+----------------------------|
+| Learning the parts of objects by non-negative matrix factorization       | 1. Introduces multiplicative update rules 2. relates NMF, PCA and VQ | Daniel D. Lee & H. Sebastian Seung | 1998 | [[http://doi.org/10.1038/44565][10.1038/44565]]              |
+| On the equivalence of NMF and spectral clustering                        | 1. Relates NMF, spectral clustering and kernel K-means               | C. Ding                            | 2005 | [[https://doi.org/10.1137/1.9781611972757.70][10.1137/1.9781611972757.70]] |
+| Orthogonal nonnegative matrix t-factorizations for clustering            | 1. Introduces NMTF                                                   | C. Ding                            | 2008 | [[https://doi.org/10.1145/1150402.1150420][10.1145/1150402.1150420]]    |
+| Simultaneous Clustering of Multi-Type Relational Data via Symmetric NMTF | 1. Introduces NMTF heterogeneous fusion                              | C. Ding                            | 2011 | [[https://doi.org/10.1145/2063576.2063621][10.1145/2063576.2063621]]    |
+| Graph Regularized NMF for Data Representation                            | 1. Introduces NMF graph regularisation                               | Thomas S. Huang                    | 2011 | [[https://doi.org/10.1109/TPAMI.2010.231][10.1109/TPAMI.2010.231]]     |
+| Neural Word Embedding as Implicit Matrix Factorization                   | 1. State-of-the-art node embedding = PPMI + factorisation            | Omer Levy & Yoav Goldberg          | 2014 | [[https://dl.acm.org/doi/10.5555/2969033.2969070][10.5555/2969033.2969070]]    |
+|--------------------------------------------------------------------------+----------------------------------------------------------------------+------------------------------------+------+----------------------------|
+
+
+
+** Interesting extensions
+
+In the table below we present some interesting NMTF algorithmic extensions.
+
+|------------------------------------------------------------+---------------------------------+--------+------+------------------------------|
+| Title                                                      | Relevance                       | Group  | Year | DOI                          |
+|------------------------------------------------------------+---------------------------------+--------+------+------------------------------|
+| Fast optimization of non-negative matrix tri-factorization | 1. Alternative (faster) solvers | Zitnik | 2019 | [[https://doi.org/10.1371/journal.pone.0217994][10.1371/journal.pone.0217994]] |
+|------------------------------------------------------------+---------------------------------+--------+------+------------------------------|
