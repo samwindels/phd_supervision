@@ -1,3 +1,32 @@
 
-\usepackage[style=numeric,maxnames=2]{biblatex}
-\renewcommand*{\bibfont}{\footnotesize}
+
+% BIBLIOGRAPHY 
+
+% Use Biblatex to render citations
+\usepackage[style=numeric,maxnames=2]{biblatex} % style is numeric, only two authors are mentioned to save space
+\renewcommand*{\bibfont}{\small} % font size of references is set to small to save space
+
+% remove some fields from citation to save space 
+\AtEveryBibitem{
+   \clearfield{month}
+   \clearfield{series}
+   \clearfield{venue}
+   \clearname{editor}
+   \clearlist{publisher}
+   \clearlist{location} % alias to field 'address'
+   \clearfield{doi}
+   \clearfield{url}
+   \clearfield{venue}
+   \clearfield{issn}
+   \clearfield{isbn}
+   \clearfield{urldate}
+   \clearfield{eventdate}
+   %\clearfield{pages}
+   %\clearfield{booktitle}
+   %\clearfield{journaltitle}
+   %\clearfield{number}
+   %\clearfield{volume}
+}
+
+% In the bibilograhy, replace the icon with numbered entries instead
+\setbeamertemplate{bibliography item}{\insertbiblabel}

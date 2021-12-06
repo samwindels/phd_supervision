@@ -2,6 +2,16 @@
 
 \usepackage{sams_macros_and_formatting}
 
+
+
+
+
+
+%% BIBLIOGRAPHY
+% Add file containing references, to be rendered with biblatex. 
+% To adjust formatting, see bibliography section in `sams_macros_and_formatting.sty'
+\addbibresource{library.bib}
+
 %Information to be included in the title page:
 \title{This is a LaTex presentation template }
 \author{Sam Windels}
@@ -41,19 +51,34 @@ of the most frequently used macros.
 	\begin{itemize}
 		\item illustrate figures with subcaption package (https://tex.stackexchange.com/questions/122314/figures-what-is-the-difference-between-using-subfig-or-subfigure/122329)
 		\item add bsc style formatting, taking inspiration from:
-			\begin{itemize}
-				\item https://github.com/matze/mtheme
+		\begin{itemize}
+			\item https://github.com/matze/mtheme
 				\item https://github.com/martinbjeldbak/ultimate-beamer-theme-list
 				\item https://www.overleaf.com/learn/latex/Beamer 
 			\end{itemize}
-
+	\item illustrate sections, subsections and outline frame 
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[t, allowframebreaks] % `allowframebreaks splits the references over multiple slides if needed
+\begin{frame}[t]
+	\frametitle{Table illustration}
+
+	\begin{table}[htpb]
+		\centering
+		\begin{tabular}{cc}
+			Towards a data integrated cell & \cite{malod2019towards}	\\
+			Learning the parts of objects by non-negative matrix factorization & \cite{Lee1999}	
+		\end{tabular}
+		\caption{{\bf Some key NMTF papers.}}
+		\label{tab:table}
+	\end{table}	
+\end{frame}
+
+\begin{frame}[t, allowframebreaks] % `allowframebreaks' automatically splits the reference list over multiple slides if needed
 	\frametitle{References}
-	% \framesubtitle{subtitle}
 	
+	\printbibliography
+
 \end{frame}
 
 \end{document}
