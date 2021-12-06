@@ -2,6 +2,9 @@
 
 \usepackage{sams_macros_and_formatting}
 
+\usepackage{caption}
+\usepackage{subcaption}
+
 %% BIBLIOGRAPHY
 % Add file containing references, to be rendered with biblatex. 
 % To adjust formatting, see bibliography section in `sams_macros_and_formatting.sty'
@@ -9,9 +12,11 @@
 
 %Information to be included in the title page:
 \title{This is a LaTex presentation template }
+\subtitle{Providing an accessible intro to LaTex presentations and setting a style}
+
 \author{Sam Windels}
 \institute{Barcelona Supercomputing Centre}
-\date{2021}
+\date{\today}
 
 \begin{document}
 
@@ -23,29 +28,62 @@
 }
 \addtocounter{framenumber}{-1} % Reset page number counting
 
+\begin{frame}[c]
+	\frametitle{Outline}
+ 	\tableofcontents
+\end{frame}
+
+
+\section{Introduction}	
+
+\begin{frame}[c]
+	\sectionpage
+\end{frame}
+
 \begin{frame}
-\frametitle{Introduction}
+\frametitle{Motivation}
 
 \begin{block}{Goals}
 	\begin{itemize}
 		\item To enable students to easily get started with making presentations in Latex.
-		\item To share best practices, from a coding perspective and slide formatting perspective.
+		\item To share best practices, from a coding and slide formatting perspective.
 		\item To achieve uniformity.
 	\end{itemize} 
 \end{block}
 
 \end{frame}
 
+
+\section{Examples}	
+
+\begin{frame}[c]
+	\sectionpage
+\end{frame}
+
 \begin{frame}[t]
-	\frametitle{Illustrating double column syntax}
+	\frametitle{Illustrating double columns}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
-			This is the first column
+			\begin{figure}[htpb]
+				\centering
+				\includegraphics[width=0.8\linewidth]{duck_a.jpeg}
+				\caption{{\bf Some random duck}}%
+			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			This is the second column
-		\end{column}
-	\end{columns}
+			{\bf Wikipedia entry about ducks} \\
+			`Duck' is the common name for numerous species of
+			waterfowl in the family Anatidae. Ducks are generally
+			smaller and shorter-necked than swans and geese, which
+			are members of the same family. Divided among several
+			subfamilies, they are a form taxon; they do not
+			represent a monophyletic group (the group of all
+			descendants of a single common ancestral species),
+			since swans and geese are not considered ducks. Ducks
+			are mostly aquatic birds, and may be found in both
+			fresh water and sea water.
+		\end{column} 
+	\end{columns} 
 \end{frame}
 
 \begin{frame}[t]
