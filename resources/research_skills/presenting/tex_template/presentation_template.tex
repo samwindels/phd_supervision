@@ -1,0 +1,59 @@
+\documentclass{beamer}
+
+\usepackage{sams_macros_and_formatting}
+
+%Information to be included in the title page:
+\title{This is a LaTex presentation template }
+\author{Sam Windels}
+\institute{College of Lore}
+\date{2021}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Introduction}
+
+To enable students to easily get started with making presentations in Latex and
+promote uniformity, this file provides a basic setup as well as an illustration
+of the most frequently used macros.  
+
+\end{frame}
+
+
+\begin{frame}[t]
+	\frametitle{Mock slide}
+	\framesubtitle{Illustrating double column syntax}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			This is the first column
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			This is the second column
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[t]
+	\frametitle{TODOs}
+	\framesubtitle{A list of elements that need to be added to this presentation}
+	\begin{itemize}
+		\item illustrate figures with subcaption package (https://tex.stackexchange.com/questions/122314/figures-what-is-the-difference-between-using-subfig-or-subfigure/122329)
+		\item add bsc style formatting, taking inspiration from:
+			\begin{itemize}
+				\item https://github.com/matze/mtheme
+				\item https://github.com/martinbjeldbak/ultimate-beamer-theme-list
+				\item https://www.overleaf.com/learn/latex/Beamer 
+			\end{itemize}
+
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, allowframebreaks] % `allowframebreaks splits the references over multiple slides if needed
+	\frametitle{References}
+	% \framesubtitle{subtitle}
+	
+\end{frame}
+
+\end{document}
