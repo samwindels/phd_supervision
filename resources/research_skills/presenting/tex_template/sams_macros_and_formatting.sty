@@ -1,6 +1,10 @@
 
+%% GENERAL FORMATTING
 
-% BIBLIOGRAPHY 
+% Remove navigation symbols from lower right
+\setbeamertemplate{navigation symbols}{}
+
+%% BIBLIOGRAPHY 
 
 % Use Biblatex to render citations
 \usepackage[style=numeric,maxnames=2]{biblatex} % style is numeric, only two authors are mentioned to save space
@@ -28,5 +32,25 @@
    %\clearfield{volume}
 }
 
-% In the bibilograhy, replace the icon with numbered entries instead
+% In the bibilograhy, replace the icon with numbered entries
 \setbeamertemplate{bibliography item}{\insertbiblabel}
+
+%% BLOCKS
+
+% TODO: define multiple block styles. Don't be tempted to use theoremstyles to achieve this, they are brocken in beamer. 
+
+% set blocks to rounded corners
+\setbeamertemplate{blocks}[rounded]
+
+%set color for `alertblock'
+\setbeamercolor{block body alerted}{bg=alerted text.fg!10}
+\setbeamercolor{block title alerted}{bg=alerted text.fg!20}
+
+%set color for `block'
+\setbeamercolor{block body}{bg=structure!10}
+\setbeamercolor{block title}{bg=structure!20}
+
+%set color for `exampleblock'
+\setbeamercolor{block body example}{bg=green!10}
+\setbeamercolor{block title example}{bg=green!20}
+
