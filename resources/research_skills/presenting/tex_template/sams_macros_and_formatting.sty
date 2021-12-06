@@ -1,8 +1,21 @@
 
 %% GENERAL FORMATTING
 
+% \logo{\includegraphics[width=.1\textwidth]{BSC_logo.jpeg}}
+
 % Remove navigation symbols from lower right
 \setbeamertemplate{navigation symbols}{}
+
+% Set page numbering
+% \setbeamertemplate{footline}[frame number]
+
+ \setbeamertemplate{footline}{%
+        \includegraphics[width=.2\textwidth]{BSC_logo.jpeg}%
+        \hfill%
+        % \usebeamercolor[fg]{page number in head/foot}%
+        % \usebeamerfont{page number in head/foot}%
+        \insertframenumber\,/\,\inserttotalframenumber\kern1em%
+ }
 
 %% BIBLIOGRAPHY 
 
