@@ -1,11 +1,6 @@
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer} % Other possible aspect ratios: 1610, 149, 54, 43 and 32. Default: 43.
 
 \usepackage{sams_macros_and_formatting}
-
-
-
-
-
 
 %% BIBLIOGRAPHY
 % Add file containing references, to be rendered with biblatex. 
@@ -15,7 +10,7 @@
 %Information to be included in the title page:
 \title{This is a LaTex presentation template }
 \author{Sam Windels}
-\institute{College of Lore}
+\institute{Barcelona Supercomputing Centre}
 \date{2021}
 
 \begin{document}
@@ -25,16 +20,18 @@
 \begin{frame}
 \frametitle{Introduction}
 
-To enable students to easily get started with making presentations in Latex and
-promote uniformity, this file provides a basic setup as well as an illustration
-of the most frequently used macros.  
+\begin{block}{Goals}
+	\begin{itemize}
+		\item To enable students to easily get started with making presentations in Latex.
+		\item To share best practices, from a coding perspective and slide formatting perspective.
+		\item To achieve uniformity.
+	\end{itemize} 
+\end{block}
 
 \end{frame}
 
-
 \begin{frame}[t]
-	\frametitle{Mock slide}
-	\framesubtitle{Illustrating double column syntax}
+	\frametitle{Illustrating double column syntax}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			This is the first column
@@ -46,16 +43,40 @@ of the most frequently used macros.
 \end{frame}
 
 \begin{frame}[t]
+	\frametitle{Illustrating blocks}
+
+	\begin{block}{This is a `block'}
+		This is text in a block.
+	\end{block}
+
+	\begin{exampleblock}{This is an `exampleblock'}
+		\begin{itemize}
+			\item This is an item list, nested in a example block. Notice the colour.
+			\item[*] Note that you can change the icon used to indicate an item, to a star for instance.
+		\end{itemize}		
+	\end{exampleblock}
+	
+	\begin{alertblock}{This is an `alertblock'}
+		\begin{enumerate}
+			\item Mind you, if you want numbered a numbered list, you better use enumerate.
+			\item You see?
+		\end{enumerate}
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}[t]
 	\frametitle{TODOs}
 	\framesubtitle{A list of elements that need to be added to this presentation}
 	\begin{itemize}
 		\item illustrate figures with subcaption package (https://tex.stackexchange.com/questions/122314/figures-what-is-the-difference-between-using-subfig-or-subfigure/122329)
-		\item add bsc style formatting, taking inspiration from:
+		\item add bsc style theme, taking inspiration from:
 		\begin{itemize}
 			\item https://github.com/matze/mtheme
-				\item https://github.com/martinbjeldbak/ultimate-beamer-theme-list
-				\item https://www.overleaf.com/learn/latex/Beamer 
-			\end{itemize}
+			\item https://github.com/martinbjeldbak/ultimate-beamer-theme-list
+			\item https://www.overleaf.com/learn/latex/Beamer 
+		\end{itemize}
+		will require us to format `blocks'
 	\item illustrate sections, subsections and outline frame 
 	\end{itemize}
 \end{frame}
