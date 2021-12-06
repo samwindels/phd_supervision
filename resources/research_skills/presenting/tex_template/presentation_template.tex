@@ -15,7 +15,13 @@
 
 \begin{document}
 
-\frame{\titlepage}
+{
+\setbeamertemplate{footline}{} % To remove page number from title page
+\begin{frame}
+  \titlepage
+\end{frame}
+}
+\addtocounter{framenumber}{-1} % Reset page number counting
 
 \begin{frame}
 \frametitle{Introduction}
