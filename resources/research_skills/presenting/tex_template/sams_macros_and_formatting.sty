@@ -1,21 +1,31 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  This is a basic beamer style file for students beginning to present using Latex.  %
+%  Features:                                                                         %
+%  - Logo and page number in footer.						     %
+%  - Rendering a minimal bibliography 						     %
+%  - Defining `blocks'.                                                              %  
+%  Usage: In your main document: \includepackage{basic_style.sty}                    %
+%  Author: Sam Windels.                                                              %
+%  Email: sam.windels@gmail.com                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %% GENERAL FORMATTING
-
-% \logo{\includegraphics[width=.1\textwidth]{BSC_logo.jpeg}}
 
 % Remove navigation symbols from lower right
 \setbeamertemplate{navigation symbols}{}
 
-% Set page numbering
-% \setbeamertemplate{footline}[frame number]
-
+% Set footer: bsc logo and page numbering
  \setbeamertemplate{footline}{%
         \includegraphics[width=.2\textwidth]{BSC_logo.jpeg}%
         \hfill%
-        % \usebeamercolor[fg]{page number in head/foot}%
-        % \usebeamerfont{page number in head/foot}%
         \insertframenumber\,/\,\inserttotalframenumber\kern1em%
  }
+
+% Alternatively, if you only want the frame number or the logo:
+% \setbeamertemplate{footline}[frame number]
+% \logo{\includegraphics[width=.1\textwidth]{BSC_logo.jpeg}}
+
 
 %% BIBLIOGRAPHY 
 
@@ -45,12 +55,13 @@
    %\clearfield{volume}
 }
 
-% In the bibilograhy, replace the icon with numbered entries
+% In the bibliography, replace the icon with numbered entries
 \setbeamertemplate{bibliography item}{\insertbiblabel}
 
-%% BLOCKS
 
-% TODO: define multiple block styles. Don't be tempted to use theoremstyles to achieve this, they are brocken in beamer. 
+%% BLOCKS
+% This could be done in a more advanced/flexible way by using theorems and defining theoremstyles.
+% However, theoremstyle seems broken in beamer (not all parameters are interpreted).
 
 % set blocks to rounded corners
 \setbeamertemplate{blocks}[rounded]
@@ -66,4 +77,3 @@
 %set color for `exampleblock'
 \setbeamercolor{block body example}{bg=green!10}
 \setbeamercolor{block title example}{bg=green!20}
-

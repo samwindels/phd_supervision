@@ -2,9 +2,6 @@
 
 \usepackage{sams_macros_and_formatting}
 
-\usepackage{caption}
-\usepackage{subcaption}
-
 %% BIBLIOGRAPHY
 % Add file containing references, to be rendered with biblatex. 
 % To adjust formatting, see bibliography section in `sams_macros_and_formatting.sty'
@@ -12,7 +9,7 @@
 
 %Information to be included in the title page:
 \title{This is a LaTex presentation template }
-\subtitle{Providing an accessible intro to LaTex presentations and setting a style}
+\subtitle{Providing an accessible intro to LaTex presentations}
 
 \author{Sam Windels}
 \institute{Barcelona Supercomputing Centre}
@@ -46,8 +43,7 @@
 \begin{block}{Goals}
 	\begin{itemize}
 		\item To enable students to easily get started with making presentations in Latex.
-		\item To share best practices, from a coding and slide formatting perspective.
-		\item To achieve uniformity.
+		\item To share coding best-practices.
 	\end{itemize} 
 \end{block}
 
@@ -60,8 +56,49 @@
 	\sectionpage
 \end{frame}
 
+\begin{frame}[c]
+	\frametitle{Layout example}
+	This slide is vertically centred. 	
+\end{frame}
+
+
+\begin{frame}[c]
+	\frametitle{Layout example}
+	\centering This slide is completely centred. 
+\end{frame}
+
 \begin{frame}[t]
-	\frametitle{Illustrating double columns}
+	\frametitle{Layout example}
+	In this slide, everything is moved to the top. 	
+\end{frame}
+
+\begin{frame}[c]
+	\frametitle{Illustrating blocks}
+
+	\begin{block}{This is a `block'}
+		This is text in a block.
+	\end{block}
+
+	\begin{exampleblock}{This is an `exampleblock'}
+		This is a different type of block. Notice the colour?
+		% \begin{itemize}
+		% 	\item This is an item list, nested in a example block. 
+		% 	\item[*] Note that you can change the icon used to indicate an item, to a star for instance.
+		% \end{itemize}		
+	\end{exampleblock}
+	
+	\begin{alertblock}{This is an `alertblock'}
+		This is yet another different type of block. 
+		% \begin{enumerate}
+		% 	\item If you want numbered a numbered list, you better use enumerate.
+		% 	\item You see?
+		% \end{enumerate}
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}[t]
+	\frametitle{Illustrating of double columns}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}[htpb]
@@ -86,57 +123,43 @@
 	\end{columns} 
 \end{frame}
 
+
 \begin{frame}[t]
-	\frametitle{Illustrating blocks}
-
-	\begin{block}{This is a `block'}
-		This is text in a block.
-	\end{block}
-
-	\begin{exampleblock}{This is an `exampleblock'}
-		\begin{itemize}
-			\item This is an item list, nested in a example block. Notice the colour.
-			\item[*] Note that you can change the icon used to indicate an item, to a star for instance.
-		\end{itemize}		
-	\end{exampleblock}
-	
-	\begin{alertblock}{This is an `alertblock'}
-		\begin{enumerate}
-			\item Mind you, if you want numbered a numbered list, you better use enumerate.
-			\item You see?
-		\end{enumerate}
-	\end{alertblock}
+	\frametitle{Illustration of sub-figures}
+	\begin{figure}[htpb]
+		\centering
+		\begin{tabular}{cc}
+			(A) \includegraphics[width=0.28\linewidth]{duck_a.jpeg} &
+			(B) \includegraphics[width=0.28\linewidth]{duck_b.jpeg} \\
+		\end{tabular}
+		\caption{{\bf Plotting two random ducks}}%
+	\end{figure}
+	An easy way to plot two sub-figures is to simply nest them in a table.\\
+	This will do for now.
 	
 \end{frame}
 
-\begin{frame}[t]
-	\frametitle{TODOs}
-	\framesubtitle{A list of elements that need to be added to this presentation}
-	\begin{itemize}
-		\item illustrate figures with subcaption package (https://tex.stackexchange.com/questions/122314/figures-what-is-the-difference-between-using-subfig-or-subfigure/122329)
-		\item add bsc style theme, taking inspiration from:
-		\begin{itemize}
-			\item https://github.com/matze/mtheme
-			\item https://github.com/martinbjeldbak/ultimate-beamer-theme-list
-			\item https://www.overleaf.com/learn/latex/Beamer 
-		\end{itemize}
-		will require us to format `blocks'
-	\item illustrate sections, subsections and outline frame 
-	\end{itemize}
-\end{frame}
-
-\begin{frame}[t]
+\begin{frame}[c]
 	\frametitle{Table illustration}
 
 	\begin{table}[htpb]
 		\centering
-		\begin{tabular}{cc}
-			Towards a data integrated cell & \cite{malod2019towards}	\\
-			Learning the parts of objects by non-negative matrix factorization & \cite{Lee1999}	
+		\begin{tabular}{|c|c|}
+			\hline
+			{\bf Title} 								& {\bf reference} 	 \\
+			\hline
+			Towards a data integrated cell 						& \cite{malod2019towards}\\
+			Learning the parts of objects by non-negative matrix factorization 	& \cite{Lee1999}	 \\
+			\hline
 		\end{tabular}
 		\caption{{\bf Some key NMTF papers.}}
-		\label{tab:table}
+		% \label{tab:table}
 	\end{table}	
+	Websites to make LaTex tables in a GUI:
+	\begin{itemize}
+		\item tablesgenerator.com 
+		\item latex-tables.com
+	\end{itemize}
 \end{frame}
 
 \begin{frame}[t, allowframebreaks] % `allowframebreaks' automatically splits the reference list over multiple slides if needed
