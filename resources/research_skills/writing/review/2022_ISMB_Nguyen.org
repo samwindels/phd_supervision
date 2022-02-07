@@ -1,0 +1,120 @@
+* Paper summary
+
+Knowing what protein-targets drugs can bind to is essential for drug
+discovery and repurposing. As experimental assays to determine the
+binding affinity of drugs to proteins are prohibitively expensive,
+computational methods to predict drug-target interactions (DTIs) are
+gaining attraction. Predicting DTIs for a given drug based on its
+known DTIs generally leads to poor predictive performance for novel
+drugs, for which not many DTIs are known (known in the literature as
+the cold-start problem). Therefore, in this paper, the authors suggest
+a new pipeline to predict DTIs that fuses chemical-chemical
+interaction data, chemical structure data, protein-protein interaction
+data and protein structure data to increase the predictive performance
+for predicting DTIs for novel drugs.
+
+* General evaluation
+
+Although the method appears sound (section 3), the methodological and
+biological contributions of this paper are unclear as a consequence of
+the poor quality of the writing, which is generally speaking very
+vague.
+
+* Major issues
+
+** The comparison to the state-of-the art is unclear
+
+In tables 3-6, the authors compare their framework to the state-of-the
+art in different variations of DTI prediction tasks. Of the listed
+methods, it is unclear to me which one is actually theirs. I would
+suggest the authors add an extra column to these tables, indicating
+the corresponding model. It is also unclear what it means for scores
+in these tables to be highlighted in bold.
+
+Additionally, after reading the discussion of these tables (section
+5.1), it is not clear to me what model is the best performing.
+
+** The methodological contribution is unclear
+
+One of the main contributions indicated is the integration of chemical
+structure data and protein structure data. However, this paper is not the
+first to do so (e.g., [2]). Hence, the authors should be more clear
+about the methodological contributions in this paper.
+
+** Many things are vaguely defined
+
+For instance:
+- The 'cold start problem' is defined as 'predicting DTIs for novel
+drugs'. From this definition, it is not clear what the cold start
+problem is, i.e, predicting DTIs for drugs with few or no known DTIs.
+
+  
+** Many things are not defined
+
+For instance:
+- How big is the training set, validation set, test set?
+- The 'PDBBind' dataset is mentioned but never defined. At the same time, the 'Kiba' dataset is referenced but never used.
+- Although it can be inferred what they are, the 'cold-drug setting' and 'cold-target setting' are not defined.
+
+
+* Minor issues
+
+** There are many grammar mistakes in this paper
+
+For instance:
+- Our contribution is two folds.
+- With the graph-based drug encoder, PPI enhanced models has better overall performance.
+- We hypothesise that not only the experimental interaction but also other types of interaction are useful for the pre-training task.
+- The result of druggability classification on NRDLD dataset using ESM and ESM-PPI features ... 
+- Conclusions and future works.
+  
+** The datasets used to evaluate the DTI prediction accuracy are quite old
+
+The datasets used to evaluate the DTI prediction accuracy stem from 2011 and 2014.
+I would suggest to consider the newer datasets, for instance [1].
+
+** Section 5.3 could be placed in the supplement
+
+Section 5.3, which evaluates if chemical-chemical interactions
+should also include text co-occurence based 'interactions', 
+adds little value and could be placed in a supplement.
+
+** The authors offer little biological insight into their results
+
+The authors show that some learned gene and drug representations serve
+better than others as input vectors to a DTI predictor. It would be
+nice if some biological insight could be provided into why some
+methods work better than others.
+
+** The word 'Pre-training' is used wrongfully
+
+'Pre-training' in the context of machine learning refers to the case
+where the model is first trained on a related dataset, typically when
+lacking data. For instance, say one wants to build a classifier
+detecting cats in pictures but only has few pictures of cats. In that
+case, the model could be pre-trained on a larger dataset to recognise
+dogs in pictures, and learn from the smaller dataset of cat pictures
+subsequently. So, the same model is trained twice, but on different
+datasets.
+
+Here, the authors use 'pre-training' as terminology for learning features
+which serve as an input for a DTI predictor. This is not the same
+thing as above, as here, two separate models are trained (one to learn
+latent representations of drugs, one to predict DTI's).
+
+
+* Conclusion
+
+Due to the quality of writing the contributions of are unclear. Hence,
+I have to reject this paper.
+
+* References
+
+[1] Huang, K., Fu, T., Gao, W., Zhao, Y., Roohani, Y., Leskovec, J.,
+... & Zitnik, M. (2021). Therapeutics Data Commons: Machine Learning
+Datasets and Tasks for Drug Discovery and Development.
+
+[2] Ye, Q., Hsieh, C. Y., Yang, Z., Kang, Y., Chen, J., Cao, D., ... &
+Hou, T. (2021). A unified drug–target interaction prediction framework
+based on knowledge graph and recommendation system. Nature
+communications, 12(1), 1-12.
