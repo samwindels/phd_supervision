@@ -1,0 +1,17 @@
+* Natural Language Processing (NLP)
+
+Here, you can find references to the NLP courses at Stanford.
+
+
+** CS224U: Natural Language Understanding
+
+- [[https://web.stanford.edu/class/cs224u/][Home]]
+- [[https://web.stanford.edu/class/cs224u/slides/][Slides and reading]]
+- [[https://www.youtube.com/watch?v=rha64cQRLs8&list=PLoROMvodv4rPt5D0zs3YhbWSZA8Q_DyiJ][Lecture videos]]
+- [[https://stanford.app.box.com/s/5zeuqnkx739rtb103wpdxiedvr63mtrp][Project examples]]
+
+** CS224n: Natural Language Processing with Deep Learning
+- [[https://web.stanford.edu/class/cs224n/][Home]]
+- [[https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/readings/][Slides and readings]]
+- [[https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ][Lecture videos]]
+
