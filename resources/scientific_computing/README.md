@@ -2,6 +2,10 @@
 
 # Scientific computing
 
+## HPC
+
+cluster documentation: https://www.bsc.es/supportkc/
+
 ## GIT
 
 ## SMELS
