@@ -1,0 +1,109 @@
+#+OPTIONS: toc:nil
+#+TITLE: The transfer-viva: definition and expectations
+
+
+
+* Introduction
+
+At about half-way the PhD, students are expected to pass a
+`transfer-viva', which usually includes a report and a defence of said
+report in front of a jury. The purpose of this document is to define the concept
+of a transfer-viva and what is expected from you, the student.
+
+* Objectives
+
+The aim of the transfer-viva is for you to convince a panel of
+experts (see below), that you can successfully finish your
+PhD. Chiefly, this means you have a clear research question, show
+progress in answering that question (in this context, papers and
+submissions are nice and should be mentioned) and know how your
+research will continue into the future to answer the posed research
+question. You should also show that you are aware of current
+literature and place the PhD in the context of current research using
+plenty of recent references. Lastly, although less critical, you can
+also briefly show how you have grown as a researcher over the past
+years. For instance, by listing presentations you give,
+listing relevant courses that you took, etc.
+
+# This future research should be within the scope of
+# a more general research question posed by the thesis.
+# This means that the student should show progress. In this sense, any
+# publications and submissions so far and should be mentioned. There
+# should also be a clear research direction, i.e., what will be
+# investigated next. This future research should be within the scope of
+# a more general research question posed by the thesis. The student
+# should also show you is aware of current literature, so the
+# transfer-viva should contain plenty of recent references putting the
+# PhD in the context of current research.
+
+Below, a brief example of what the takeaway message of a transfer-viva
+should be. Of course, a detailed report with proper definitions,
+motivation and references is expected.
+
+#+BEGIN_QUOTE 
+In my thesis, I investigate the higher-order topology of networks
+(research question). So far, I have defined graphlet-adjacency to
+capture the higher-order wiring patterns in networks based on the
+co-occurrence of nodes on graphlets (differently shaped sub-graphs). I
+showed that graphlet adjacencies for different graphlets capture
+complementary biology in molecular networks (showing
+progress). Currently, state of the art deep-learning algorithms ignore
+network topology. Therefore, I will integrate graphlet-adjacency in
+deep-learning based network-learning algorithms (future research
+direction).
+#+END_QUOTE
+
+* Audience
+
+The audience is a jury of established researchers and domain
+experts. You can expect the jury members to have enough experience and
+expertise relevant to your domain to evaluate your research. However,
+given that we do very interdisciplinary research (combining machine
+learning, biology, medicine, network analysis, etc), you can
+not expect each jury member to be acquainted with all domains touched
+by your research. In practice, this means the report should be
+digestible for both biologists and machine learning experts. This
+implies that mathematical terminology and algorithms need to be
+formally defined and also be intuitively explained. Also, you should
+always formally define the network data subject to your research
+(i.e., what are the nodes and edges).
+
+Part of the jury will not be from your institution. It is therefore
+advised to refrain from providing detailed methodological descriptions
+of unpublished and ongoing work.
+
+* Preparing for the viva
+
+It is recommend that you re-read your written work and the viva report. Try to
+anticipate questions, comments and criticisms, and think how you would
+respond. Although you may not be able to anticipate actual questions
+to be asked by the examiners, this approach will encourage you to
+think actively about your work.
+
+You should also refresh your memory of the relevant literature. Do not
+attempt to re-read every paper in the bibliography of your thesis;
+instead, re-read carefully some of the more recent key references. If
+you have left university after submitting your thesis you may be
+unaware of very recent work. Ask your supervisor a couple of weeks
+before the viva whether any work of direct relevance to your thesis
+has been published since you submitted your thesis.
+
+You must not contact your examiners directly at any point leading up
+to the viva or afterwards.  All contact should be done by your
+supervisor or other relevant departmental staff member.
+
+A good way to prepare for your viva is to practice, so arrange yourself a mock viva.
+
+* The viva
+
+A viva is an academic interview at which your examiners will be
+looking for an understanding of the subject matter of your thesis, an
+appreciation of its significance to established knowledge in the
+field and an awareness of the breadth of the subject area. The examiners will expect you to:
+- Show a critical analysis of your own work and of that of others.
+- Appreciate the limitations of the methods employed and the results obtained by yourself and others.
+- Understand how the broad conclusions of your thesis support, add to or conflict with previous work.
+- Know the major concepts and recent developments in your subject.
+
+
+
