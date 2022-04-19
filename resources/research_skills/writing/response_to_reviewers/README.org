@@ -16,3 +16,11 @@ their considerations have been met. Note that this is a formal document.
 Again,  the editor forwards the updated manuscript and response letters to
 the reviewers and bases his decision on their responses.
 
+* Example response letters
+
+|---------------------------------------------------------------------------------------------+-----------------+-------|
+| Reference                                                                                   | Response Letter | Paper |
+|---------------------------------------------------------------------------------------------+-----------------+-------|
+| Graphlet eigencentralities capture novel central roles of genes in pathways, 2022, Plos One | [[file:examples/response_to_reviewers_windels_2022_graphlet.docx][Link]]            | [[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261676][Link]]  |
+|---------------------------------------------------------------------------------------------+-----------------+-------|
+
