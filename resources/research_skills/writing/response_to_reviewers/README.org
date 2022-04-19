@@ -1,18 +1,18 @@
 * Response to the reviewers
 
 After submitting a manuscript to a journal, the editor sends the manuscript
-to a qualified reserachers for review. Based on this review, the editor
-decides to either publish your article, reject it, or request you for a
-revision of the manuscript. A request for a revision of your
-manuscript, be it either 'major' or 'minor' does imply that the editor is convinced of the
-potential merit of your paper, despite it needing more work. Hence, it is
-likely the article will be accepted after fixing the comments of the
-reviewers, although this process may take multiple rounds.
+to qualified researchers for review. Based on this review, the editor decides
+to either publish the article, reject it, or request a revision. A request
+for a revision of the manuscript, be it either 'major' or 'minor', does imply
+that the editor is convinced of the potential merit of the article, despite
+it requiring more work. Hence, the editor will likely accept the article
+after fixing the reviewers' comments, although this process may take multiple
+rounds.
 
-Revising a paper means that you adress all of the reviewers issues in the
-manuscript. Addititionally, you write a response letter to the reviewers. The
-goal of this document is to convince the reviewers all of their
-considerations have been met. Note that this is a formal document. Again,
-after submitting the updated manuscript to the journal, the editor forwards
-these to the reviewers, and bases his decision on their respons.
+Revising a manuscript means addressing all of the reviewers' issues in the
+manuscript. Additionally, a response letter to the reviewers needs to be
+written. The aim of this document is to convince the reviewers that all of
+their considerations have been met. Note that this is a formal document.
+Again,  the editor forwards the updated manuscript and response letters to
+the reviewers and bases his decision on their responses.
 
