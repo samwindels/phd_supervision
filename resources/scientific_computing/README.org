@@ -12,6 +12,12 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/python/3.7.4/lib64/
 
 export PYTHONPATH=/usr/local/lib64/python3.7/lib-dynload
 
+
+install virtual env
+sudo /usr/local/bin/pip3 install virtualenv
+
+setup virtual env: [[https://docs.python.org/3/library/venv.html][docs]] 
+
 ** HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
