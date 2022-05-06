@@ -1,8 +1,8 @@
 
 
-# Scientific computing
+* Scientific computing
 
-# Installing python from source
+* Installing python from source
 - installing a specific python version from source [[https://docs.rstudio.com/resources/install-python-source/][link]]
 - environment variables needed to be set in bashrc:
 
@@ -10,29 +10,29 @@ PATH=/opt/python/3.7.4/bin/:$PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/python/3.7.4/lib64/
 export PYTHONPATH=/usr/local/lib64/python3.7/lib-dynload
 
-## HPC
+** HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
 
-## GIT
+** GIT
 
-## SMELS
+** SMELS
 
-## visualisation
+** visualisation
 
-## Testing and debugging
+** Testing and debugging
 
-## Profiling
+** Profiling
 
-## Package for distribution
+** Package for distribution
 
-## Parallel computing
+** Parallel computing
 
-## Cluster submission
+** Cluster submission
 
-## Reproducible computing (see rougier)
+** Reproducible computing (see rougier)
 
-## Python best practices
+** Python best practices
 
 - fstreams (readability)
 - assert statements (avoid unnoticed bugs/avoid hard to trace bugs)
@@ -40,7 +40,7 @@ cluster documentation: https://www.bsc.es/supportkc/
 - top 25 noob habbits you need to ditch: https://www.youtube.com/watch?v=qUeud6DvOWI
 
 
-## References;
+** References;
 
 Tutorial on scientific computing:
 https://aspp.school/wiki/archives
