@@ -2,8 +2,13 @@
 
 # Scientific computing
 
-# Setting up python
+# Installing python from source
 - installing a specific python version from source [[https://docs.rstudio.com/resources/install-python-source/][link]]
+- environment variables needed to be set in bashrc:
+
+PATH=/opt/python/3.7.4/bin/:$PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/python/3.7.4/lib64/
+export PYTHONPATH=/usr/local/lib64/python3.7/lib-dynload
 
 ## HPC
 
