@@ -2,6 +2,9 @@
 
 # Scientific computing
 
+# Setting up python
+- installing a specific python version from source [[link][https://docs.rstudio.com/resources/install-python-source/]]
+
 ## HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
