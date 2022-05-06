@@ -3,7 +3,7 @@
 # Scientific computing
 
 # Setting up python
-- installing a specific python version from source [[link][https://docs.rstudio.com/resources/install-python-source/]]
+- installing a specific python version from source [[https://docs.rstudio.com/resources/install-python-source/][link]]
 
 ## HPC
 
