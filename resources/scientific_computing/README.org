@@ -63,6 +63,22 @@ setup virtual env: [[https://docs.python.org/3/library/venv.html][docs]]
 
 cluster documentation: https://www.bsc.es/supportkc/
 
+available environments:
+#+begin_src bash
+module avail
+#+end_src
+
+load environment:
+#+begin_src bash
+ module  load <module name>
+#+end_src
+
+For instance:
+#+begin_src bash
+ module load python/3.10.2
+#+end_src
+
+
 ** GIT
 
 ** SMELS
