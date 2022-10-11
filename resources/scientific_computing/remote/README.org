@@ -1,0 +1,12 @@
+* Remote
+
+** To add
+- link to vpn setup BSC
+- ssh
+- jupyter tunneling
+- matplotlib via ssh -Y or ssh -X
+  - macos, install and setup xquartz first, + changes in .ssh/config and enable authenication in security xquartz
+  - tmux -> update display variable in each pane
+- mount remote directory
+  - sshfs
+  - ftp? 
