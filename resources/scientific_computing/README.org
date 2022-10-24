@@ -2,7 +2,7 @@
 
 #+TITLE: Scientific computing
 
-** Installing python from source
+* Installing python from source
 
 Install dependencies (opensuse) (for other platforms, see: [[https://docs.rstudio.com/resources/install-python-source/][link]])
 
@@ -59,7 +59,7 @@ sudo ln -s /usr/local/lib64/python3.10/lib-dynload/ /usr/local/lib/python3.10/li
 
 setup virtual env: [[https://docs.python.org/3/library/venv.html][docs]] 
 
-** HPC
+* HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
 
@@ -79,25 +79,29 @@ For instance:
 #+end_src
 
 
-** GIT
+* GIT
 
-** SMELS
+[[https://github.com/github/gitignore][Gitignore templates]]
 
-** visualisation
+
+
+* SMELS
+
+* visualisation
 
 ** Testing and debugging
 
-** Profiling
+* Profiling
 
-** Package for distribution
+* Package for distribution
 
 ** Parallel computing
 
-** Cluster submission
+* Cluster submission
 
-** Reproducible computing (see rougier)
+* Reproducible computing (see rougier)
 
-** Python best practices
+* Python best practices
 
 - fstreams (readability)
 - assert statements (avoid unnoticed bugs/avoid hard to trace bugs)
@@ -105,7 +109,7 @@ For instance:
 - top 25 noob habbits you need to ditch: https://www.youtube.com/watch?v=qUeud6DvOWI
 
 
-** References;
+* References;
 
 Tutorial on scientific computing:
 https://aspp.school/wiki/archives
