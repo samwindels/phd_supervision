@@ -1,0 +1,20 @@
+* Reading
+
+** Key authors
+
+|---------------------+----------------+----------+----------------+---------------|
+| Name                | Research focus | Location | Google Scholar | Personal page |
+|---------------------+----------------+----------+----------------+---------------|
+| Marinka Zitnik      |                |          |                |               |
+| Jure Leskovec       |                |          |                |               |
+| Anna Goldenberg     |                |          |                |               |
+| Trey Ideker         |                |          |                |               |
+| Tijana Milenkovic   |                |          |                |               |
+| Jan Baumbach        |                |          |                |               |
+| Bo Wang             |                |          |                |               |
+| Predrag Radivojac   |                |          |                |               |
+| Noel Malod-Dognin   |                |          |                |               |
+| Carlo Cannistraci   |                |          |                |               |
+| Andrew Teschendorff |                |          |                |               |
+|                     |                |          |                |               |
+|---------------------+----------------+----------+----------------+---------------|
