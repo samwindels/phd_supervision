@@ -1,5 +1,11 @@
 * Reading
 
+** To add
+- google scholar notifications
+- rss feeds
+- libray management
+  - creating a tex file using crossref script 
+
 ** Key authors
 
 |---------------------+----------------+----------+----------------+---------------|
@@ -16,5 +22,7 @@
 | Noel Malod-Dognin   |                |          |                |               |
 | Carlo Cannistraci   |                |          |                |               |
 | Andrew Teschendorff |                |          |                |               |
-|                     |                |          |                |               |
+| Igor Jurisica       |                |          |                |               |
+| Jörg Menche         |                |          |                |               |
+| Jörg Stelling       |                |          |                |               |
 |---------------------+----------------+----------+----------------+---------------|
