@@ -109,3 +109,5 @@ For instance:
 
 Tutorial on scientific computing:
 https://aspp.school/wiki/archives
+Tutorial on computer graphics:
+https://www.scratchapixel.com/
