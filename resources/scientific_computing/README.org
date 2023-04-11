@@ -63,6 +63,12 @@ setup virtual env: [[https://docs.python.org/3/library/venv.html][docs]]
 python3.11 -m venv /Users/windels/venvs/venvGCM --system-site-packages --upgrade-deps
 #+end_src
 
+To launch the virtual environment, add the following alias to your .zshrc file :
+
+#+begin_src bash
+alias venvGCM='source ~/venvs/venvGCM/bin/activate'
+#+end_src
+
 ** HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
