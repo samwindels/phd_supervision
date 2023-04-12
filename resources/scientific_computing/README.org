@@ -93,6 +93,12 @@ For instance:
 
 ** GIT
 
+Adding github as a known host
+#+begin_src bash
+ ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+#+end_src
+
+
 ** SMELS
 
 ** visualisation
