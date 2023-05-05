@@ -1,16 +1,28 @@
-* Non-negative Matrix Tri-Factorisation
+* Network analysis
 
+** Graphlets
 
-** Key references
+*** Key references
 
 In the table below, we present some key reading for graphlets from an
 algorithmic perspective (i.e., not considering key applications).
 
-|------------------------------------------------------------+----------------------+------------+----------+------+------------------------------|
-| Title                                                      | Relevance            | 1st author | Group    | Year | DOI                          |
-|------------------------------------------------------------+----------------------+------------+----------+------+------------------------------|
-| Network motifs: simple building blocks of complex networks | 1. Introduces motifs | Ron Milo   | Uri Alon | 2002 | [[https://doi.org/10.1126/science.298.5594.824][10.1126/science.298.5594.824]] |
-|------------------------------------------------------------+----------------------+------------+----------+------+------------------------------|
+|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
+| Title                                                            | Relevance                                                        | 1st author    | Group         | Year | DOI                           |
+|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
+| Network motifs: simple building blocks of complex networks       | 1. Introduces motifs                                             | Ron Milo      | Uri Alon      | 2002 | [[https://doi.org/10.1126/science.298.5594.824][10.1126/science.298.5594.824]]  |
+| Modeling interactome: scale-free or geometric?                   | 1. Introduces graphlets                                          | Natasa Przulj | Igor Jurisica | 2004 | [[https://doi.org/10.1093/bioinformatics/bth436][10.1093/bioinformatics/bth436]] |
+| Biological network comparison using graphlet degree distribution | 1. Introduces orbits, 2. Introduces graphlet degree distribution | Natasa Przulj | Natasa Przulj | 2007 | [[https://doi.org/10.1093/bioinformatics/btl301][10.1093/bioinformatics/btl301]] |
+|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
 
 
-** References on graphlet counting
+*** References on graphlet counting
+
+|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
+| Title                                                            | Relevance                                                        | 1st author    | Group         | Year | DOI                           |
+|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
+| Network motifs: simple building blocks of complex networks       | 1. Introduces motifs                                             | Ron Milo      | Uri Alon      | 2002 | [[https://doi.org/10.1126/science.298.5594.824][10.1126/science.298.5594.824]]  |
+|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
+
+** General
+** Network geometry
