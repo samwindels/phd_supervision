@@ -1,0 +1,16 @@
+* Non-negative Matrix Tri-Factorisation
+
+
+** Key references
+
+In the table below, we present some key reading for graphlets from an
+algorithmic perspective (i.e., not considering key applications).
+
+|------------------------------------------------------------+----------------------+------------+----------+------+------------------------------|
+| Title                                                      | Relevance            | 1st author | Group    | Year | DOI                          |
+|------------------------------------------------------------+----------------------+------------+----------+------+------------------------------|
+| Network motifs: simple building blocks of complex networks | 1. Introduces motifs | Ron Milo   | Uri Alon | 2002 | [[https://doi.org/10.1126/science.298.5594.824][10.1126/science.298.5594.824]] |
+|------------------------------------------------------------+----------------------+------------+----------+------+------------------------------|
+
+
+** References on graphlet counting
