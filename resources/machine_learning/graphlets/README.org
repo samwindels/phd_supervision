@@ -12,19 +12,22 @@ algorithmic perspective (i.e., not considering key applications).
 |------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+----------------------+---------------+------+-------------------------------|
 | Network motifs: simple building blocks of complex networks                   | 1. Introduces motifs                                                                       | Ron Milo             | Uri Alon      | 2002 | [[https://doi.org/10.1126/science.298.5594.824][10.1126/science.298.5594.824]]  |
 | Modeling interactome: scale-free or geometric?                               | 1. Introduces graphlets                                                                    | Natasa Przulj        | Igor Jurisica | 2004 | [[https://doi.org/10.1093/bioinformatics/bth436][10.1093/bioinformatics/bth436]] |
-| Biological network comparison using graphlet degree distribution             | 1. Introduces orbits, 2. Introduces graphlet degree distribution                           | Natasa Przulj        | Natasa Przulj | 2007 | [[https://doi.org/10.1093/bioinformatics/btl301][10.1093/bioinformatics/btl301]] |
-| Revealing the hidden language of complex networks                            | 1. Introduces Graphlet Correlation Matrix, 2. Introduces the Graphlet Correlation Distance | Ömer Nebil Yaveroğlu | Natasa Przulj | 2014 | [[https://doi.org/10.1038/srep04547][10.1038/srep04547]]             |
+| Biological network comparison using graphlet degree distribution             | 1. Introduces orbits, 2. Introduces the graphlet degree distribution                       | Natasa Przulj        | Natasa Przulj | 2007 | [[https://doi.org/10.1093/bioinformatics/btl301][10.1093/bioinformatics/btl301]] |
+| Revealing the hidden language of complex networks                            | 1. Introduces the Graphlet Correlation Matrix, 2. Introduces the Graphlet Correlation Distance | Ömer Nebil Yaveroğlu | Natasa Przulj | 2014 | [[https://doi.org/10.1038/srep04547][10.1038/srep04547]]             |
 | Graphlet Laplacians for topology-function and topology-disease relationships | 1. Introduces graphlet adjacency                                                           | Sam F. L. Windels    | Natasa Przulj | 2019 | [[https://doi.org/10.1093/bioinformatics/btz455][10.1093/bioinformatics/btz455]] |
 |------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+----------------------+---------------+------+-------------------------------|
 
-
+*** Graphlet extensions 
 *** References on graphlet counting
 
-|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
-| Title                                                            | Relevance                                                        | 1st author    | Group         | Year | DOI                           |
-|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
-| Network motifs: simple building blocks of complex networks       | 1. Introduces motifs                                             | Ron Milo      | Uri Alon      | 2002 | [[https://doi.org/10.1126/science.298.5594.824][10.1126/science.298.5594.824]]  |
-|------------------------------------------------------------------+------------------------------------------------------------------+---------------+---------------+------+-------------------------------|
+|--------------------------------------------------------------+----------------------------------------------------------------------+---------------------+---------------------+------+-------------------------------|
+| Title                                                        | Relevance                                                            | 1st author          | Group               | Year | DOI                           |
+|--------------------------------------------------------------+----------------------------------------------------------------------+---------------------+---------------------+------+-------------------------------|
+| A combinatorial approach to graphlet counting                | 1. (ORCA) Infer 5-node orbit counts via system of equations          | Tomaž Hočevar       | Janez Demšar        | 2014 | [[https://doi.org/10.1093/bioinformatics/btt717][10.1093/bioinformatics/btt717]] |
+| Efficient Graphlet Counting for Large Networks               | 1. (PGD) Infer 4-node graphlet counts through graphlet decomposition | Nesreen K. Ahmed    | Nick Duffield       | 2015 | [[https://doi.org/10.1109/ICDM.2015.141][10.1109/ICDM.2015.141]]         |
+| ESCAPE: Efficiently Counting All 5-Vertex Subgraphs          | 1. (ESCAPE) Generalises PGD to 5 node (!not induced!) subgraphs      | Ali Pinar           | Vaidyanathan Vishal | 2017 | [[https://doi.org/10.1145/3038912.3052597][10.1145/3038912.3052597]]       |
+| Efficiently Counting Vertex Orbits of All 5-vertex Subgraphs | 1. (EVOKE) Generalises ESCAPE to count (!non induced!) orbits        | Noujan Pashanasangi | C. Seshadhri        | 2020 | [[https://doi.org/10.1145/3336191.3371773][10.1145/3336191.3371773]]       |
+|--------------------------------------------------------------+----------------------------------------------------------------------+---------------------+---------------------+------+-------------------------------|
 
 ** General
 ** Network geometry
