@@ -59,7 +59,19 @@ sudo ln -s /usr/local/lib64/python3.10/lib-dynload/ /usr/local/lib/python3.10/li
 
 setup virtual env: [[https://docs.python.org/3/library/venv.html][docs]] 
 
-* HPC
+Best is to enable system-site-packages for dependencies that can not be installed via pip (i.e., that need a system package manager like apt-get, or conda). For example, the graph-tool package. 
+
+#+begin_src bash
+python3.11 -m venv /Users/windels/venvs/venvGCM --system-site-packages --upgrade-deps
+#+end_src
+
+To launch the virtual environment, add the following alias to your .zshrc file :
+
+#+begin_src bash
+alias venvGCM='source ~/venvs/venvGCM/bin/activate'
+#+end_src
+
+** HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
 
@@ -82,6 +94,12 @@ For instance:
 * GIT
 
 [[https://github.com/github/gitignore][Gitignore templates]]
+Adding github as a known host
+#+begin_src bash
+ ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+#+end_src
+
+
 
 
 
@@ -113,3 +131,5 @@ For instance:
 
 Tutorial on scientific computing:
 https://aspp.school/wiki/archives
+Tutorial on computer graphics:
+https://www.scratchapixel.com/

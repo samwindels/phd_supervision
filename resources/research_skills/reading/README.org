@@ -1,12 +1,12 @@
-* Reading
+#+TITLE: Reading
 
-** To add
+* To add
 - google scholar notifications
 - rss feeds
 - libray management
   - creating a tex file using crossref script 
 
-** Key authors
+* Key authors
 
 |---------------------+----------------+----------+----------------+---------------|
 | Name                | Research focus | Location | Google Scholar | Personal page |
@@ -25,4 +25,5 @@
 | Igor Jurisica       |                |          |                |               |
 | Jörg Menche         |                |          |                |               |
 | Jörg Stelling       |                |          |                |               |
+| Sophia Tsoka        |                |          |                |               |
 |---------------------+----------------+----------+----------------+---------------|
