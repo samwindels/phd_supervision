@@ -71,7 +71,63 @@ To launch the virtual environment, add the following alias to your .zshrc file :
 alias venvGCM='source ~/venvs/venvGCM/bin/activate'
 #+end_src
 
-** HPC
+
+* Working remote
+** Logging in via the command line with SSH
+To log in with the user /bscuser/ on the remote node /mn1/, run:
+#+begin_src bash
+ ssh bscuser@mn1.bsc.es 
+#+end_src
+You will be prompted for your password.
+
+Note that the node mn1 is publicly accessible (i.e., via the
+internet). If the machine is only available on the intranet, you will
+have to enable your VPN first.
+
+** Easier logging in
+It is cumbersome to have to have to enter your username and password each time.
+
+To avoid having to enter the password each time, we will generate an ssh key. On your local machine run:
+#+begin_src bash
+  ssh-keygen
+#+end_src
+This will generate a private key (under ~/.ssh/id_rsa, by default) and
+a public key (uner ~/.ssh/id_rsa.pub, by default).
+
+To copy the public key to /mn1/ run:
+#+begin_src bash
+ssh-copy-id  -i .ssh/id_rsa mn1
+#+end_src
+
+Now, on the local machine, we create an alias /mn1/ so that each time
+we ssh to the /mn1/ node, we do so using the user /bscuser/ and use
+our generated key instead of a password. In the file '.ssh/config',
+add the following lines:
+
+#+begin_src bash
+Host mn1
+	HostName mn1.bsc.es
+	User bscuser
+     	IdentityFile ~/.ssh/id_rsa
+#+end_src
+
+To make your shell aware of this new configuration, run:
+#+begin_src bash
+  source .ssh/config
+#+end_src
+
+You can now ssh into the node mn1 running:
+#+begin_src bash
+  ssh mn1
+#+end_src
+
+
+
+
+
+
+
+* HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
 
