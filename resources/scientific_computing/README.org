@@ -47,7 +47,7 @@ tar zxvf Python-3.10.4.tgz
 Compile (using 4 cores) and install
 #+begin_src bash
 cd Python-3.10.4/
-./configure --enable-optimizations
+./configure --enable-optimizations --enable-shared
 make -j 4
 sudo make install
 #+end_src
