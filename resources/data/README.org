@@ -26,5 +26,5 @@ contact if something is not clear).
 | Functional/structural similarity | COEX    | genes            | expression profile similarity         | [[https://coxpresdb.jp/download/][COXPRESdb]] | [[scripts/coexdb.py][coexdb.py]]  |
 |                                  | D       | diseases         | disease-disease associations          | [[https://www.disgenet.org/][DisGeNET]]  |            |
 |                                  | DV      | diseases         | disease-disease variants associations | [[https://www.disgenet.org/][DisGeNET]]  |            |
-|  | DepMap | genes | expression profile similarity in cancer knockdowns | [[https://depmap.org/portal/download/all/][DepMap]] | | |
+|  | DepMap | genes | expression profile similarity in cancer knockdowns | [[https://depmap.org/portal/download/all/][DepMap]] | |
 |----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
