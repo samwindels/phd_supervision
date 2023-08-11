@@ -2,6 +2,20 @@
 
 #+TITLE: Scientific computing
 
+Goals: reproducible, error-free, 
+
+* A default Project structure
+
+* Python environments
+
+[[https://www.nijho.lt/post/python-environments/#-system-package-managers][venv comparison]]
+
+Probably a package manager is better to create easier reproducible envirenmonts. Or docker?
+
+* A project pipeline
+
+[[https://snakemake.readthedocs.io/en/stable/][SnakeMake]]
+
 * Installing python from source
 
 Install dependencies (opensuse) (for other platforms, see: [[https://docs.rstudio.com/resources/install-python-source/][link]])
