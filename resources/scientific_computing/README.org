@@ -191,6 +191,16 @@ Adding github as a known host
 
 * Reproducible computing (see rougier)
 
+* NVIDIA graphics drivers
+
+Get the hardware details:
+#+begin_src bash
+lspci | grep VGA
+lscpu | grep Arch
+#+end_src
+
+Download corresponding drivers [[https://www.nvidia.com/Download/index.aspx][here]].
+
 * Python best practices
 
 - fstreams (readability)
