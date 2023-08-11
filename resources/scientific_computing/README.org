@@ -126,6 +126,24 @@ You can now ssh into the node mn1 running:
   ssh mn1
 #+end_src
 
+** Window forwarding
+
+Sometimes, you want to have access to the GUI of the remote machine. We do so through X11 window forwarding. To enable this, simply SSH into the remote machine using the -X flag:
+
+#+begin_src bash
+  ssh -X mn1
+#+end_src
+
+Note that for this to work, you need to have an X window server running on the local machine. To check if this is the case, run:
+#+begin_src bash
+  echo $DISPLAY
+#+end_src
+Run this same command on the remote machine. If both these variable are set (i.e., echo returns a non-empty string), you should be good to go.
+
+Note that in the case you are using MacOS as a local machine, you need to install the X window server (XQuartz) on the local machine first ([[https://www.cyberciti.biz/faq/apple-osx-mountain-lion-mavericks-install-xquartz-server/][link]]). 
+
+
+
 * HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
