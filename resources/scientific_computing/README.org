@@ -84,27 +84,30 @@ Note that the node mn1 is publicly accessible (i.e., via the
 internet). If the machine is only available on the intranet, you will
 have to enable your VPN first.
 
-** Easier logging in
-It is cumbersome to have to have to enter your username and password each time.
+** Avoiding passwords
 
-To avoid having to enter the password each time, we will generate an ssh key. On your local machine run:
+It is cumbersome to have to have to enter your password each time you ssh into a remote machine. 
+
+To avoid this, we will generate a ssh key pair, which consists of a private (under ~/.ssh/id_rsa, by default) and public key (under ~/.ssh/id_rsa.pub, by default):
+
+On your local machine run:
 #+begin_src bash
   ssh-keygen
 #+end_src
-This will generate a private key (under ~/.ssh/id_rsa, by default) and
-a public key (under ~/.ssh/id_rsa.pub, by default).
 
-To copy the accepted private key to /mn1/ run:
+To copy the accepted private key to the remote machine (here mn1) run:
 #+begin_src bash
-ssh-copy-id  -i .ssh/id_rsa mn1
+ssh-copy-id  -i .ssh/id_rsa bscuser@mn1.bsc.es 
 #+end_src
 
-From now on, whenever we ssh to the remote machine, the instead of being prompted for the password, we automatically offer the public id_rsa.pub file, which well be checked by the host to match (after hashing) to the copied id_rsa file. 
+From now on, whenever we ssh into the remote machine, instead of being prompted for the password, we automatically offer the public id_rsa.pub file, which well be checked by the host to correspond (via a hash function) to the copied private id_rsa file. 
 
-Now, on the local machine, we create an alias /mn1/ so that each time
-we ssh to the /mn1/ node, we do so using the user /bscuser/ and use
-our generated key instead of a password. In the file '.ssh/config',
-add the following lines:
+** Machine aliases
+
+It is cumbersome to have to enter your username and the host address each time you want to ssh into the remote machine. 
+To avoid this, we will create an alias. 
+
+On the local machine, in the file '.ssh/config', add the following lines:
 
 #+begin_src bash
 Host mn1
