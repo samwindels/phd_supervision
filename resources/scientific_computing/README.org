@@ -92,12 +92,14 @@ To avoid having to enter the password each time, we will generate an ssh key. On
   ssh-keygen
 #+end_src
 This will generate a private key (under ~/.ssh/id_rsa, by default) and
-a public key (uner ~/.ssh/id_rsa.pub, by default).
+a public key (under ~/.ssh/id_rsa.pub, by default).
 
-To copy the public key to /mn1/ run:
+To copy the accepted private key to /mn1/ run:
 #+begin_src bash
 ssh-copy-id  -i .ssh/id_rsa mn1
 #+end_src
+
+From now on, whenever we ssh to the remote machine, the instead of being prompted for the password, we automatically offer the public id_rsa.pub file, which well be checked by the host to match (after hashing) to the copied id_rsa file. 
 
 Now, on the local machine, we create an alias /mn1/ so that each time
 we ssh to the /mn1/ node, we do so using the user /bscuser/ and use
@@ -121,12 +123,6 @@ You can now ssh into the node mn1 running:
   ssh mn1
 #+end_src
 
-
-
-
-
-
-
 * HPC
 
 cluster documentation: https://www.bsc.es/supportkc/
@@ -145,7 +141,6 @@ For instance:
 #+begin_src bash
  module load python/3.10.2
 #+end_src
-
 
 * GIT
 
