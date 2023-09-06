@@ -39,7 +39,7 @@ Like any package manager, Conda has a list of sources for packages it can instal
 conda config --show channels
 #+end_src
 
-By default, the only channel available is called "defaults". The channel "conda-forge" is considered generally more up-to-data, as it is where the mainainers of the softare originaly push their code. To add this channel and pick is as a default, run:
+By default, the only channel available is called "defaults". The channel "conda-forge" is considered generally more up-to-data, as it is where the mainainers of the softare originaly push their code. Additionally the "bioconda" channel lists packages used for biomedical research. To add these two channels and pick them as default, run:
 
 #+begin_src bash
 conda config --add channels conda-forge bioconda
