@@ -8,15 +8,16 @@ Approaches: interfaces
 
 * A default Project structure
 
-* Setting up a Python environment with Conda
+* Setting up a Python environment with Mamba (a Conda drop-in replacement)
 
-Conda is: 
+Mamba is: 
 - an environment manager. You can have different set-ups, i.e., versions of python and installed python libraries, for different projects. 
 - a system package manager. Conda can install different versions of python, python packages and other dependencies (e.g., libraries). This is useful in case a python package has non-python dependencies. For instance, GraphTool relies on the Boost c++ headers to be available, something you can't install via pip, as it can only install python packages. 
-- cross-platform, supporting linux, macOS and Windows. It alows you to easily replicate your environment on any another machine, which it is great for code portability. 
+- cross-platform, supporting linux, macOS and Windows. It alows you to easily replicate your environment on any another machine, which it is great for code portability.
+- a c++ implementation of the Conda software. Any Conda commands should also work for Mamba.
 
 ** Install
-I prefer the Miniconda distribution, which lets you choose all the packages you want installed, over the Anaconda distribution, which installs a ton of packages by default.  
+I prefer the Micromamba distribution, which lets you choose all the packages you want installed, over the default Mamba distribution, which installs a ton of packages by default.  
 Latest install instructions [[https://docs.conda.io/projects/miniconda/en/latest/][here]].
 
 #+begin_src bash
