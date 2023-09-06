@@ -8,33 +8,26 @@ Approaches: interfaces
 
 * A default Project structure
 
-* Setting up a Python environment with Mamba (a Conda drop-in replacement)
+* Setting up a Python environment with Mamba
 
 Mamba is: 
 - an environment manager. You can have different set-ups, i.e., versions of python and installed python libraries, for different projects. 
 - a system package manager. Conda can install different versions of python, python packages and other dependencies (e.g., libraries). This is useful in case a python package has non-python dependencies. For instance, GraphTool relies on the Boost c++ headers to be available, something you can't install via pip, as it can only install python packages. 
 - cross-platform, supporting linux, macOS and Windows. It alows you to easily replicate your environment on any another machine, which it is great for code portability.
-- a c++ implementation of the Conda software. Any Conda commands should also work for Mamba.
+- a drop-in replacement for "Conda". Mamba is written in c++ and therefore a lot faster than the Conda it replaces. Any Conda commands should also work for Mamba.
 
 ** Install
-I prefer the Micromamba distribution, which lets you choose all the packages you want installed, over the default Mamba distribution, which installs a ton of packages by default.  
-Latest install instructions [[https://docs.conda.io/projects/miniconda/en/latest/][here]].
 
+I prefer the Micromamba distribution over the default Mamba distribution, as it is a lot smaller and only installs the bare minimum needed packages to get up and running.
+
+To install run:
 #+begin_src bash
-mkdir -p ~/miniconda3
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-rm -rf ~/miniconda3/miniconda.sh
-#+end_src
-Depending on your shell run one of the following:
-#+begin_src bash
-~/miniconda3/bin/conda init bash
-~/miniconda3/bin/conda init zsh
-#+end_src
+"${SHELL}" <(curl -L micro.mamba.pm/install.sh)
+Refresh your shell.
 
 ** Getting a better package list
 
-Like any package manager, Conda has a list of sources for packages it can install, called /channels/. To see the available channels run: 
+Like any package manager, Mamba has a list of sources for packages it can install, called /channels/. To see the available channels run: 
 
 #+begin_src bash
 conda config --show channels
