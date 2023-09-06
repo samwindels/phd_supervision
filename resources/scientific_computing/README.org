@@ -22,7 +22,8 @@ I prefer the Micromamba distribution over the default Mamba distribution, as it 
 
 To install run:
 #+begin_src bash
-"${SHELL}" <(curl -L micro.mamba.pm/install.sh)
+"${SHELL}" <(curl -L micro.mamba.pm/install.sh
+#+end_src
 Refresh your shell.
 
 ** Getting a better package list
