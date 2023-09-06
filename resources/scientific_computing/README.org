@@ -18,7 +18,7 @@ Mamba is:
 
 ** Install
 
-I prefer the Micromamba distribution over the default Mamba distribution, as it is a lot smaller and only installs the bare minimum needed packages to get up and running.
+I prefer the [[https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html#][Micromamba]] distribution over the default Mamba distribution, as it is a lot smaller and only installs the bare minimum needed packages to get up and running.
 
 To install run:
 #+begin_src bash
@@ -28,7 +28,7 @@ Refresh your shell.
 
 ** Getting a better package list
 
-Like any package manager, Mamba has a list of sources for packages it can install, called /channels/. To see the available channels run: 
+Like any package manager, Micromamba has a list of sources for packages it can install, called /channels/. To see the available channels run: 
 
 #+begin_src bash
 micromamba config list
