@@ -2,23 +2,20 @@
 
 #+TITLE: Scientific computing
 
-Goals: reproducible, error-free, 
+Goals: reproducible, error-free, reusable 
+Approaches: interfaces 
 
 * A default Project structure
 
-* Python environments
+* Setting up a Python environment with Conda
 
-[[https://www.nijho.lt/post/python-environments/#-system-package-managers][venv comparison]]
+Conda is: 
+- an environment manager. You can have different set-ups, i.e., versions of python and installed python libraries, for different projects. 
+- a system package manager. Conda can install different versions of python, python packages and other dependencies (e.g., libraries). This is useful in case a python package has non-python dependencies. For instance, GraphTool relies on the Boost c++ headers to be available, something you can't install via pip, as it can only install python packages. 
+- cross-platform, supporting linux, macOS and Windows. It alows you to easily replicate your environment on any another machine, which it is great for code portability. 
 
-Probably a package manager is better to create easier reproducible envirenmonts. Or docker?
-
-** Conda
-A systemwide packagemanager: it can install different versions of python, python packages and other dependencies (e.g., libraries). 
-This unlike pip, which can only install python packages. It is a cross-platform package manager, supporting linux macOS and Windows, so it is great for code portability. 
-It is also an environment manager, meaning you can have different set-ups, i.e., versions of python and installed python libraries, for different projects. 
-
-*** Install
-I prefer the miniconda distribution, which lets you choose all the packages you want installed, over anaconda, which just installs a ton of packages by default.  
+** Install
+I prefer the Miniconda distribution, which lets you choose all the packages you want installed, over the Anaconda distribution, which installs a ton of packages by default.  
 Latest install instructions [[https://docs.conda.io/projects/miniconda/en/latest/][here]].
 
 #+begin_src bash
@@ -33,10 +30,19 @@ Depending on your shell run one of the following:
 ~/miniconda3/bin/conda init zsh
 #+end_src
 
+Like any package manager, Conda has a list of sources for packages it can install, called /channels/. 
+
+** Setting up an environment
+
+
+** Alternatives
+
+[[https://www.nijho.lt/post/python-environments/#-system-package-managers][venv comparison]]
 
 
 
-* A project pipeline
+
+* Buildning a project pipeline/workflow 
 
 [[https://snakemake.readthedocs.io/en/stable/][SnakeMake]]
 
