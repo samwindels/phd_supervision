@@ -42,7 +42,7 @@ conda config --show channels
 By default, the only channel available is called "defaults". The channel "conda-forge" is considered generally more up-to-data, as it is where the mainainers of the softare originaly push their code. To add this channel and pick is as a default, run:
 
 #+begin_src bash
-conda config --add channels conda-forge
+conda config --add channels conda-forge bioconda
 conda config --set channel_priority strict
 #+end_src
 
