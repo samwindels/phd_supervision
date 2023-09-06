@@ -31,24 +31,13 @@ Refresh your shell.
 Like any package manager, Mamba has a list of sources for packages it can install, called /channels/. To see the available channels run: 
 
 #+begin_src bash
-conda config --show channels
+micromamba config list
 #+end_src
 
-By default, the only channel available is called "defaults". The channel "conda-forge" is considered generally more up-to-data, as it is where the mainainers of the softare originaly push their code. Additionally the "bioconda" channel lists packages used for biomedical research. To add these two channels and pick them as default, run:
-
-#+begin_src bash
-conda config --add channels conda-forge bioconda
-conda config --set channel_priority strict
-#+end_src
-
-You can also remove the "defaults" channel if you want:
-#+begin_src bash
-conda config --remove channels defaults
-#+end_src
+Make sure you have "conda-forge", which is considered the most up-to-date channel and "bioconda, which lists packages used in biomedical research.  
 
 ** Setting up an environment
 
-Instructions [[https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands][here]].
 
 ** Alternatives
 
