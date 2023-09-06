@@ -20,7 +20,7 @@ Mamba is:
 
 I prefer the [[https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html#][Micromamba]] distribution over the default Mamba distribution, as it is a lot smaller and only installs the bare minimum needed packages to get up and running.
 
-To install run:
+To [[https://mamba.readthedocs.io/en/latest/micromamba-installation.html][install]] run:
 #+begin_src bash
 "${SHELL}" <(curl -L micro.mamba.pm/install.sh
 #+end_src
