@@ -30,7 +30,25 @@ Depending on your shell run one of the following:
 ~/miniconda3/bin/conda init zsh
 #+end_src
 
-Like any package manager, Conda has a list of sources for packages it can install, called /channels/. 
+** Getting a better package list
+
+Like any package manager, Conda has a list of sources for packages it can install, called /channels/. To see the available channels run: 
+
+#+begin_src bash
+conda config --show channels
+#+end_src
+
+By default, the only channel available is called "defaults". The channel "conda-forge" is considered generally more up-to-data, as it is where the mainainers of the softare originaly push their code. To add this channel and pick is as a default, run:
+
+#+begin_src bash
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+#+end_src
+
+You can also remove the "defaults" channel if you want:
+#+begin_src bash
+conda config --remove channels defaults
+#+end_src
 
 ** Setting up an environment
 
