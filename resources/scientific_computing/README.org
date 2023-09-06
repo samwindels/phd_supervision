@@ -3,6 +3,7 @@
 #+TITLE: Scientific computing
 
 Goals: reproducible, error-free, reusable 
+
 Approaches: interfaces 
 
 * A default Project structure
