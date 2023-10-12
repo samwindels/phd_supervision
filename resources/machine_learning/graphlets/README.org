@@ -1,5 +1,9 @@
 * Network analysis
 
+** Usefull resources
+
+[[https://en.wikipedia.org/wiki/Glossary_of_graph_theory][Glossary of graph theory]]
+
 ** Graphlets
 
 *** Key references
@@ -29,5 +33,8 @@ algorithmic perspective (i.e., not considering key applications).
 | Efficiently Counting Vertex Orbits of All 5-vertex Subgraphs | 1. (EVOKE) Generalises ESCAPE to count (!non induced!) orbits        | Noujan Pashanasangi | C. Seshadhri        | 2020 | [[https://doi.org/10.1145/3336191.3371773][10.1145/3336191.3371773]]       |
 |--------------------------------------------------------------+----------------------------------------------------------------------+---------------------+---------------------+------+-------------------------------|
 
-** General
+
+
 ** Network geometry
+
+
