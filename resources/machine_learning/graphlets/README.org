@@ -23,6 +23,7 @@ Key papers introducing graphlet-based methodologies.
 *** Graphlet extensions
 |------------------------------------------------------------------------+-------------------------------------------------------------+-------------------+---------------+------+-------------------------------|
 | Title                                                                  | Relevance                                                   | 1st author        | Group         | Year | DOI                           |
+|------------------------------------------------------------------------+-------------------------------------------------------------+-------------------+---------------+------+-------------------------------|
 | Higher-order molecular organization as a source of biological function | Introduces hyper-graphlets, a hypergraphlet-based extension | Thomas Gaudelet   | Natasa Przulj | 2018 | [[https://doi.org/10.1093/bioinformatics/bty570][10.1093/bioinformatics/bty570]] |
 | Functional geometry of protein interactomes                            | Introduces simplets, a simplicial-complexes-based extension | Noel Malod-Dognin | Natasa Przulj | 2019 | [[https://doi.org/10.1093/bioinformatics/btz146][10.1093/bioinformatics/btz146]] |
 |------------------------------------------------------------------------+-------------------------------------------------------------+-------------------+---------------+------+-------------------------------|
