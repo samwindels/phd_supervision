@@ -8,22 +8,22 @@
 
 * Key authors
 
-|---------------------+----------------+----------+----------------+---------------|
-| Name                | Research focus | Location | Google Scholar | Personal page |
-|---------------------+----------------+----------+----------------+---------------|
-| Marinka Zitnik      |                |          |                |               |
-| Jure Leskovec       |                |          |                |               |
-| Anna Goldenberg     |                |          |                |               |
-| Trey Ideker         |                |          |                |               |
-| Tijana Milenkovic   |                |          |                |               |
-| Jan Baumbach        |                |          |                |               |
-| Bo Wang             |                |          |                |               |
-| Predrag Radivojac   |                |          |                |               |
-| Noel Malod-Dognin   |                |          |                |               |
-| Carlo Cannistraci   |                |          |                |               |
-| Andrew Teschendorff |                |          |                |               |
-| Igor Jurisica       |                |          |                |               |
-| Jörg Menche         |                |          |                |               |
-| Jörg Stelling       |                |          |                |               |
-| Sophia Tsoka        |                |          |                |               |
-|---------------------+----------------+----------+----------------+---------------|
+|---------------------+-------------------------------------------------------------------------------------|
+| Name                | Research focus                                                                      |
+|---------------------+-------------------------------------------------------------------------------------|
+| [[https://scholar.google.com/citations?user=YtUDgPIAAAAJ][Marinka Zitnik]]      | ML, Geometric DL, Knowledge Graphs, Biomedical AI                                   |
+| [[https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=en][Jure Leskovec]]       | ML, Data mining, Neural Networks, Knowledge Graphs, Complex Networks                |
+| [[https://scholar.google.com/citations?user=cEepZOEAAAAJ&hl=en][Anna Goldenberg]]     | ML, computational biology, network modeling, disease heterogeneity data integration |
+| Trey Ideker         |                                                                                     |
+| Tijana Milenkovic   |                                                                                     |
+| Jan Baumbach        |                                                                                     |
+| Bo Wang             |                                                                                     |
+| Predrag Radivojac   |                                                                                     |
+| Noel Malod-Dognin   |                                                                                     |
+| Carlo Cannistraci   |                                                                                     |
+| Andrew Teschendorff |                                                                                     |
+| Igor Jurisica       |                                                                                     |
+| Jörg Menche         |                                                                                     |
+| Jörg Stelling       |                                                                                     |
+| Sophia Tsoka        |                                                                                     |
+|---------------------+-------------------------------------------------------------------------------------|
