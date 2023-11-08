@@ -3,16 +3,15 @@
 
 * Bibliography management tools
 
-Bibliograpy management tools are primarily used to manage different
-references/citations and secondarily to organise article PDF's and notes.
+Bibliography management tools are used to manage your 
+references/citations, article PDFs and notes.
 
-It is suggested you have one single bibliography containing all of
-your references. That way, any corrections you do to your references
-persist accross all your projects. (You can always export a subset of
-your references per project anyway, if you prefer.)
+It is suggested you have a single bibliography containing all of
+your references. That way, any corrections you make to your references
+persist across your projects.
 
 _Suggested tools:_
-- [[https://www.mendeley.com][Mendeley]]
+- [[https://www.mendeley.com][Mendeley]] (crossplatform, GUI, has a web-browser citation import plugin)
 - [[https://github.com/papis/papis][Papis]] (command line tool)
 
 
