@@ -1,20 +1,34 @@
 #+TITLE: Reading
 
-* To add
-- google scholar notifications
-- rss feeds
-- libray management
-  - creating a tex file using crossref script
+
+* Bibliography management tools
+
+Bibliograpy management tools are primarily used to manage different
+references/citations and secondarily to organise article PDF's and notes.
+
+It is suggested you have one single bibliography containing all of
+your references. That way, any corrections you do to your references
+persist accross all your projects. (You can always export a subset of
+your references per project anyway, if you prefer.)
+
+_Suggested tools:_
+- [[https://www.mendeley.com][Mendeley]]
+- [[https://github.com/papis/papis][Papis]] (command line tool)
+
 
 * Key Journals
 
-|-----------------------+-----------------------------------------------------------------+---------|
-| Name                  | Content                                                         | RSS     |
-| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Options]] |
-|                       |                                                                 |         |
-|-----------------------+-----------------------------------------------------------------+---------|
+Key journals to follow. Usually journals have their own email alert system of RSS feed.
+
+|-----------------------+-----------------------------------------------------------------+----------------|
+| Name                  | Content                                                         | RSS and alerts |
+| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Options]]        |
+|                       |                                                                 |                |
+|-----------------------+-----------------------------------------------------------------+----------------|
 
 * Key authors
+
+ Suggested authors follow on google scholar. 
 
 |---------------------+--------------------------------------------------------------------------------------------|
 | Name                | Research focus                                                                             |
