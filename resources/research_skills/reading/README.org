@@ -1,7 +1,7 @@
 #+TITLE: Reading
 
 
-* Bibliography management tools
+** Bibliography management tools
 
 Bibliography management tools are used to manage your 
 references/citations, article PDFs and notes.
@@ -10,12 +10,12 @@ It is suggested you have a single bibliography containing all of
 your references. That way, any corrections you make to your references
 persist across your projects.
 
-_Suggested tools:_
+*Suggested tools:*
 - [[https://www.mendeley.com][Mendeley]] (crossplatform, GUI, has a web-browser citation import plugin)
 - [[https://github.com/papis/papis][Papis]] (command line tool)
 
 
-* Key Journals
+** Key Journals
 
 Key journals to follow. Usually journals have their own email alert system of RSS feed.
 
@@ -25,9 +25,9 @@ Key journals to follow. Usually journals have their own email alert system of RS
 |                       |                                                                 |                |
 |-----------------------+-----------------------------------------------------------------+----------------|
 
-* Key authors
+** Key authors
 
- Suggested authors follow on google scholar. 
+ Suggested authors follow on [[https://scholar.google.com/][Google Scholar]]. 
 
 |---------------------+--------------------------------------------------------------------------------------------|
 | Name                | Research focus                                                                             |
