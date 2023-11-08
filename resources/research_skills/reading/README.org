@@ -17,14 +17,18 @@ persist across your projects.
 
 ** Key Journals
 
-Key journals to follow. Usually journals have their own email alert system of RSS feed.
+Key journals to follow. Usually journals provide an email alert system of RSS feed.
+Some RSS readers (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]) allow you to automatically rank entries based on the occurence of key-words to sift through the cruft.
 
-|-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
-| Name                  | Content                                                                                                                                                                                                                                  | RSS and alerts |
-| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology                                                                                                                                                                          | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Options]]        |
-| [[https://www.nature.com/ncomms/][Nature Communications]] | Multidisciplinary journal dedicated to publishing high-quality research in all areas of the biological, health, physical, chemical, ..., sciences. Papers represent important advances of significance to specialists within each field. | [[https://www.nature.com/ncomms/][Options]]        |
-|                       |                                                                                                                                                                                                                                          |                |
-|-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+| Name                  | Content                                                                                                                                                                                                   | RSS and alerts |
+|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+| [[https://www.nature.com/][Nature]]                | The finest research in all fields on the basis of its originality, importance, interdisciplinary interest, ..., and surprising conclusions. Nature also provides news of topical and coming trends.       | [[https://www.nature.com/][Link]]           |
+| [[https://www.nature.com/ncomms/][Nature Communications]] | Multidisciplinary journal dedicated to publishing high-quality research in all areas of the biological, health, physical, chemical, ..., sciences. Papers represent important advances within each field. | [[https://www.nature.com/ncomms/][Link]]           |
+| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology                                                                                                                                           | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Link]]           |
+| [[https://www.science.org/journal/science][Science]]               | Influential papers that significantly advance scientific understanding. They should merit recognition by the wider scientific community and general public, beyond that provided by specialty journals.   | [[https://www.science.org/content/page/email-alerts-and-rss-feeds][Link]]           |
+| [[https://www.nature.com/srep/][Scientific Reports]]    | Original research from across all areas of the natural sciences, psychology, medicine and engineering.                                                                                                    | [[https://www.nature.com/srep/][Link]]           |
+|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
 
 ** Key authors
 
@@ -54,3 +58,6 @@ Key journals to follow. Usually journals have their own email alert system of RS
 | [[https://scholar.google.com/citations?user=QrS2y5sAAAAJ&hl=en&oi=ao][Tijana Milenkovic]]   | ✓                  | Computational Biology, Network Science, Biological Networks, Graph Theory, Algorithms      |
 | [[https://scholar.google.com/citations?user=KnAit3cAAAAJ&hl=en][Trey Ideker]]         |                    | Cancer, Systems Biology, Networks, Bioinformatics                                          |
 |---------------------+--------------------+--------------------------------------------------------------------------------------------|
+
+** To be added:
+- journals seem to have call for papers email allerts. Look into this 
