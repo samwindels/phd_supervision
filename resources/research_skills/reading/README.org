@@ -19,11 +19,12 @@ persist across your projects.
 
 Key journals to follow. Usually journals have their own email alert system of RSS feed.
 
-|-----------------------+-----------------------------------------------------------------+----------------|
-| Name                  | Content                                                         | RSS and alerts |
-| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Options]]        |
-|                       |                                                                 |                |
-|-----------------------+-----------------------------------------------------------------+----------------|
+|-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+| Name                  | Content                                                                                                                                                                                                                                  | RSS and alerts |
+| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology                                                                                                                                                                          | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Options]]        |
+| [[https://www.nature.com/ncomms/][Nature Communications]] | Multidisciplinary journal dedicated to publishing high-quality research in all areas of the biological, health, physical, chemical, ..., sciences. Papers represent important advances of significance to specialists within each field. | [[https://www.nature.com/ncomms/][Options]]        |
+|                       |                                                                                                                                                                                                                                          |                |
+|-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
 
 ** Key authors
 
@@ -39,7 +40,7 @@ Key journals to follow. Usually journals have their own email alert system of RS
 | [[https://scholar.google.com/citations?user=b7xoXO0AAAAJ&hl=en&oi=ao][Carlo Cannistraci]]   | ✓                  | Network Science, Computational Biomedicine, Computational Neuroscience                     |
 | [[https://scholar.google.com/citations?user=aJOeGRoAAAAJ&hl=en&oi=ao][Dana Pe'er]]          |                    | Systems Biology, Cancer Genomics, Computational Biology, Molecular Networks, Single Cell   |
 | [[https://scholar.google.com/citations?user=Hi9ALnkAAAAJ&hl=nl&oi=ao][Igor Jurisica]]       |                    |                                                                                            |
-| [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]        | ✓                  | Bioinformatics, AI, Systems Biology, Systems Medicine                                      |
+| [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]        |  	✓                   | Bioinformatics, AI, Systems Biology, Systems Medicine                                      |
 | [[https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=en][Jure Leskovec]]       |                    | ML, Data mining, Neural Networks, Knowledge Graphs, Complex Networks                       |
 | [[https://scholar.google.com/citations?user=jHDsgE0AAAAJ&hl=en&oi=ao][Jörg Menche]]         | ✓                  | Network Medicine, Systems Biology, Computational Biology, Network Science, VR              |
 | [[https://scholar.google.com/citations?user=CSMmegYAAAAJ&hl=en&oi=sra][Jörg Stelling]]       |                    | Systems biology, Synthetic Biology                                                         |
