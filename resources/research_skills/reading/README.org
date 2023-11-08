@@ -17,8 +17,11 @@ persist across your projects.
 
 ** Key Journals
 
-Key journals to follow. Usually journals provide an email alert system of RSS feed.
-Some RSS readers (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]) allow you to automatically rank entries based on the occurence of key-words to sift through the cruft.
+Key journals to follow. Journals advertise their latest issue via an email alert system and/or RSS feed.
+Some journals also provide email alerts for call for papers.
+To sift through the cruft, you can use an RSS readers that supports
+automatically ranking entries (i.e., articles) based on the occurence
+of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 
 |-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
 | Name                  | Content                                                                                                                                                                                                   | RSS and alerts |
@@ -58,6 +61,3 @@ Some RSS readers (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]) allo
 | [[https://scholar.google.com/citations?user=QrS2y5sAAAAJ&hl=en&oi=ao][Tijana Milenkovic]]   | ✓                  | Computational Biology, Network Science, Biological Networks, Graph Theory, Algorithms      |
 | [[https://scholar.google.com/citations?user=KnAit3cAAAAJ&hl=en][Trey Ideker]]         |                    | Cancer, Systems Biology, Networks, Bioinformatics                                          |
 |---------------------+--------------------+--------------------------------------------------------------------------------------------|
-
-** To be added:
-- journals seem to have call for papers email allerts. Look into this 
