@@ -4,7 +4,15 @@
 - google scholar notifications
 - rss feeds
 - libray management
-  - creating a tex file using crossref script 
+  - creating a tex file using crossref script
+
+* Key Journals
+
+|-----------------------+-----------------------------------------------------------------+---------|
+| Name                  | Content                                                         | RSS     |
+| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology | [[https://academic.oup.com/bioinformatics][Options]] |
+|                       |                                                                 |         |
+|-----------------------+-----------------------------------------------------------------+---------|
 
 * Key authors
 
