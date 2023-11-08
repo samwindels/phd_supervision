@@ -10,7 +10,7 @@
 
 |-----------------------+-----------------------------------------------------------------+---------|
 | Name                  | Content                                                         | RSS     |
-| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology | [[https://academic.oup.com/bioinformatics][Options]] |
+| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Options]] |
 |                       |                                                                 |         |
 |-----------------------+-----------------------------------------------------------------+---------|
 
