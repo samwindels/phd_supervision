@@ -1,0 +1,100 @@
+* Scientific writing
+
+** General
+
+*** Who is the audience
+
+*** What is the goal
+
+**** Computer scientists
+- Computational contributions 
+  * new algorithms
+  * faster algorithms
+  * new heuristics
+**** Biologists
+- Want to solve a biologial research question
+- output (of bioinformatics) is a hypothesis. e.g. gene predictions
+
+
+*** Motivation 
+- What is the biologial problem/research question
+  For us, these are typically in the realm of precision medecine: 
+  * drug reporposing
+  * patient stratification
+  * biomarker discovery
+- Why is AI needed
+  Because omics/medial data is big data: cannot be analysed/interpreted by practitioners anymore
+- What computational problems will be solved (i.e. methodological contribution)
+  For instance:
+  * a new model, include new data
+  * new way of extracting knowledge
+
+
+
+** Project roposal
+
+*** motivation
+
+Think big. Rather than methodological inovation, go for a new paradigm.
+
+** Biomedical paper
+
+** Paper review (for journal submission)
+
+if minor revisions: also focus on typos and small detail. if major revision, don't focus too much on it as it will have to be rewritten anyway. 
+
+**  Literature review
+
+** Response letter to review
+
+It is a formal letter. The aim is to convice the reviewer that their issues are resolved. 
+
+In the case of requested additonal experiments. If possible, include them in the discussion as potential future work. 
+This document should be self contained, i.e. the reviewer should not have to reopen the manuscript. For instance, when fixign a typo:
+
+This typo was removed from the manuscript. The complete sentence now reads: “...”.
+
+* Visualisation
+
+- tufte presentation: https://vimeo.com/216639831
+
+
+** Potential reviewers
+
+Researchers you could consider as a reviewer for your papers.
+
+|-----------------------+-------+----------+------------+---------+--------+---------------+-----------------------------------------------------------------------------------------------|
+| Name                  | ORCID | Position | Department | Address | E-mail | Personal page | Research Focus                                                                                |
+|-----------------------+-------+----------+------------+---------+--------+---------------+-----------------------------------------------------------------------------------------------|
+| [[https://scholar.google.com/citations?user=hQq44SkAAAAJ&hl=en&oi=ao][Jorge Duitama]]         |       |          |            |         |        |               | Bioinformatics, Computational biology, High Throughput Sequencing, Population genomics        |
+| [[https://scholar.google.com/citations?user=b7xoXO0AAAAJ&hl=en&oi=ao][Carlo Cannistraci]]     |       |          |            |         |        |               | Network Science, Computational Biomedicine, Computational Neuroscience                        |
+| Frederic Cazals       |       |          |            |         |        |               |                                                                                               |
+| [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]          |       |          |            |         |        |               | Bioinformatics, AI, Systems Biology, Systems Medicine                                         |
+| [[https://scholar.google.com/citations?user=jUC0gLMAAAAJ&hl=en&oi=ao][Markus List]]           |       |          |            |         |        |               | Computational Biology, Bioinformatics, Regulatory genomics, Epigenomics Systems Medicine      |
+| [[https://scholar.google.com/citations?user=ugj0at8AAAAJ&hl=en&oi=ao][Predrag Radivojac]]     |       |          |            |         |        |               | ML, Bioinformatics, Computational Biology, Data Mining                                        |
+| [[https://scholar.google.com/citations?user=clYCtpMAAAAJ&hl=en&oi=sra][Richard Röttger]]       |       |          |            |         |        |               | ML, DL, Bioinformatics, clustering                                                            |
+| [[https://scholar.google.com/citations?user=pGfLM1gAAAAJ&hl=nl&oi=ao][Esti Yeger-Lotem]]      |       |          |            |         |        |               |                                                                                               |
+| [[https://scholar.google.com/citations?user=phfY_ncAAAAJ&hl=en&oi=ao][Michael Stumpf]]        |       |          |            |         |        |               | Theoretical BiologyBiomathematicsQuantitative BiologyStatistical InferenceStochastic Dynamics |
+| [[https://scholar.google.com/citations?user=DHQy3wcHP4kC&hl=en&oi=ao][Desmond J. Higham]]     |       |          |            |         |        |               | Numerical analysisstochastic computationcomplex networkscomputational biology                 |
+| [[https://scholar.google.com/citations?user=aFCoq2YAAAAJ&hl=en&oi=ao][Travis Gagie]]          |       |          |            |         |        |               | Data structures, data compression                                                             |
+| [[https://scholar.google.com/citations?user=QveXixwAAAAJ&hl=en&oi=ao][Alex Skupin]]           |       |          |            |         |        |               | Spatial Systems Biology, Single Cell Analysis, Brain Energy Metabolism, Cell Fate Dynamics    |
+| [[https://scholar.google.com/citations?user=lWjhNlgAAAAJ&hl=en&oi=ao][Teresa Przytycka]]      |       |          |            |         |        |               |                                                                                               |
+| [[https://scholar.google.com/citations?user=ZYwC_CQAAAAJ&hl=en&oi=ao][Martin Ester]]          |       |          |            |         |        |               | Data Mining, ML, Transfer Learning, Causal Discovery, Precision Medicine                      |
+| Mona Singh            |       |          |            |         |        |               |                                                                                               |
+| [[https://scholar.google.com/citations?user=HpAXYnsAAAAJ&hl=en&oi=ao][Franca Fraternali]]     |       |          |            |         |        |               | Bioinformatics, Computational Biology, Computational Chemistry, Structural Biology            |
+| [[https://scholar.google.com/citations?user=ymEAWXAAAAAJ&hl=en&oi=ao][Peter Klimek]]          |       |          |            |         |        |               |                                                                                               |
+| [[https://scholar.google.com/citations?user=X-HDVW0AAAAJ&hl=en&oi=ao][Chloe-Agathe Azencott]] |       |          |            |         |        |               |                                                                                               |
+|-----------------------+-------+----------+------------+---------+--------+---------------+-----------------------------------------------------------------------------------------------|
+
+** References
+
+Ten Simple Rules for Better Figures
+Nicolas P. Rougier, Michael Droettboom, Philip E. Bourne
+PLOS Computational Biology,
+
+How to Write a Good Scientific Paper
+Chris A. Mack
+
+The Principles of Biomedical Scientific Writing: Introduction/Methods/Results/Conclusion
+
+English for Writing Research Papers, adrian wallwork. (version 1 contains a list of useful phrases in chapter 19.)
