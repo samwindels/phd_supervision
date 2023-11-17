@@ -47,6 +47,7 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 | [[https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en&oi=ao][Bo Wang]]                | ML, Computational Biology, Computer Vision                                                 |
 | [[https://scholar.google.com/citations?user=b7xoXO0AAAAJ&hl=en&oi=ao][Carlo Cannistraci]]      | Network Science, Computational Biomedicine, Computational Neuroscience                     |
 | [[https://scholar.google.com/citations?user=aJOeGRoAAAAJ&hl=en&oi=ao][Dana Pe'er]]             | Systems Biology, Cancer Genomics, Computational Biology, Molecular Networks, Single Cell   |
+| [[https://scholar.google.com/citations?user=DHQy3wcHP4kC&hl=en&oi=ao][Desmond Higham]]         |                                                                                            |
 | [[https://scholar.google.com/citations?user=jUC0gLMAAAAJ&hl=en&oi=ao][Markus List]]            | Computational Biology, Bioinformatics, Regulatory genomics, Epigenomics Systems Medicine   |
 | [[https://scholar.google.com/citations?user=Hi9ALnkAAAAJ&hl=nl&oi=ao][Igor Jurisica]]          |                                                                                            |
 | [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]           | Bioinformatics, AI, Systems Biology, Systems Medicine                                      |
