@@ -59,6 +59,7 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 | [[https://scholar.google.com/citations?user=uhsaahAAAAAJ&hl=en&oi=ao][Patrick Aloy]]           | Network biology, Bioinformatics, Complex diseases                                          |
 | [[https://scholar.google.com/citations?user=ugj0at8AAAAJ&hl=en&oi=ao][Predrag Radivojac]]      | ML, Bioinformatics, Computational Biology, Data Mining                                     |
 | [[https://scholar.google.com/citations?user=clYCtpMAAAAJ&hl=en&oi=sra][Richard Röttger]]        | ML, DL, Bioinformatics, clustering                                                         |
+| [[https://scholar.google.com/citations?user=64G5UgMAAAAJ&hl=en&oi=ao][Roded Sharan]]           |                                                                                            |
 | [[https://scholar.google.com/citations?user=LUU0EFgAAAAJ&hl=en&oi=ao][Sophia Tsoka]]           | Bioinformatics                                                                             |
 | [[https://scholar.google.com/citations?user=QrS2y5sAAAAJ&hl=en&oi=ao][Tijana Milenkovic]]      | Computational Biology, Network Science, Biological Networks, Graph Theory, Algorithms      |
 | [[https://scholar.google.com/citations?user=KnAit3cAAAAJ&hl=en][Trey Ideker]]            | Cancer, Systems Biology, Networks, Bioinformatics                                          |
