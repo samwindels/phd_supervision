@@ -71,8 +71,9 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 Different terminology is sometimes used to refer to the
 same concept depending on the field. Below a list of frequently encountered synonyms.
 
-|----------+----------+----------------------------------------------------------------------------------------------------------------------------|
-| Term     | Synonyms | Notes                                                                                                                      |
-|----------+----------+----------------------------------------------------------------------------------------------------------------------------|
-| Graphlet | Motif    | Although not the same, Graphlets are induced while motifs are not,  people sometimes use 'motifs' refering to 'graphlets'. |
-|----------+----------+----------------------------------------------------------------------------------------------------------------------------|
+|-------------------+-----------------------+----------------------------------------------------------------------------------------------------------------------------|
+| Term              | Synonyms              | Notes                                                                                                                      |
+|-------------------+-----------------------+----------------------------------------------------------------------------------------------------------------------------|
+| Graphlet          | Motif                 | Although not the same, Graphlets are induced while motifs are not,  people sometimes use 'motifs' refering to 'graphlets'. |
+| Graphlet counting | Motif degree counting |                                                                                                                            |
+|-------------------+-----------------------+----------------------------------------------------------------------------------------------------------------------------|
