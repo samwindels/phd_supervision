@@ -15,7 +15,7 @@ persist across your projects.
 - [[https://github.com/papis/papis][Papis]] (command line tool)
 
 
-** Key Journals
+** Key Journals and conference proceedings
 
 Key journals to follow. Journals advertise their latest issue via an email alert system and/or RSS feed.
 Some journals also provide email alerts for call for papers.
@@ -66,3 +66,20 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 | [[https://scholar.google.com/citations?user=KnAit3cAAAAJ&hl=en][Trey Ideker]]            | Cancer, Systems Biology, Networks, Bioinformatics                                          |
 |------------------------+--------------------------------------------------------------------------------------------|
 
+** Synonyms
+
+Depending on the field different terminology is used to reffer to the
+same concept. Below a list of frequently encountered synonyms.
+
+|----------+----------+--------------------------------------------------------------------------------------------------------------------------------|
+| Term     | Synonyms | Notes                                                                                                                          |
+|----------+----------+--------------------------------------------------------------------------------------------------------------------------------|
+| Graphlet | Motif    | Technically not the same: Graphlets are induced,  motifs are not. Yet, people sometimes use 'motif' when they mean 'graphlet'. |
+|----------+----------+--------------------------------------------------------------------------------------------------------------------------------|
+
++----------+--------------+-------+
+| Term     | Synonyms     | Notes |
++----------+--------------+-------+
+| Graphlet |    Motif,    | People are very vague here with terminology. Graphlets (induced) and motifs (not induced) are not the same, but        |
+|          |   Subgraph   |       |
++----------+--------------+-------+
