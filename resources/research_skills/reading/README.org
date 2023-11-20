@@ -68,7 +68,7 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 
 ** Synonyms
 
-Different terminology is sometimes used to reffer to the
+Different terminology is sometimes used to refer to the
 same concept depending on the field. Below a list of frequently encountered synonyms.
 
 |----------+----------+----------------------------------------------------------------------------------------------------------------------------|
