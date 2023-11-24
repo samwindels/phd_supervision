@@ -7,8 +7,10 @@ against real networks: if the topological distance between a real
 network and a model network is low, it is assumed they have similar
 network properties. This process is known as `model network
 fitting'. The state-of-the-art network distance measure is the
-Graphlet Correlation Distance, which measures the dissimilarity in
-graphlet-based wiring between two networks.
+'Graphlet Correlation Distance', which measures the dissimilarity in
+graphlet-based wiring between two networks ([[https://doi.org/10.1038/srep04547][DOI: 10.1038/srep04547]]).
+For an example of model network analysis, see the paper 'Towards a
+data-integrated cell' ([[https://doi.org/10.1038/s41467-019-08797-8][DOI: 10.1038/s41467-019-08797-8]]).
 
 * Fundamental model networks
 
@@ -24,7 +26,3 @@ this list as a starting point.
 | Erdős-Rényi | Nodes are randomly connected | Relatively little cliques. Less high-degree nodes (hubs). | If a real network does not fit ER, it means it is not randomly wired. | [[https://publi.math.unideb.hu/load_doi.php?pdoi=10_5486_PMD_1959_6_3_4_12][10.5486/pmd.1959.6.3-4.12]] |
 |             |                              |                                                           |                                                                       |                           |
 |-------------+------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------+---------------------------|
-
-* Todo
-
-- add a reference to papers that do model fitting as an example
