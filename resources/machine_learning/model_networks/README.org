@@ -1,9 +1,9 @@
 #+title: Model Networks
 
-Model networks are synthetic networks that are randomly generated
-according to some generation principle to achieve some desired
+Model networks are synthetic networks randomly generated
+according to different generation principles to achieve desired
 network properties. Model networks are often used comparatively
-against real networks: if the topological distance between a real
+against real networks. If the topological distance between a real
 network and a type of model network is low, it is assumed that the
 real network has network properties similar to the model network. This
 process is known as `model network fitting'. The state-of-the-art
