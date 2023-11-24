@@ -1,0 +1,20 @@
+#+title: Model Networks
+
+Model networks are synthetic networks that are randomly generated
+according to some generation principle to achieve some desired
+network properties. Model networks are often used comparatively
+against real networks: if the topological distance between a real
+network and a type of model network is low, it is assumed that the
+real network has network properties similar to the model network. This
+process is known as `model network fitting'. The state-of-the-art
+network distance measure is the Graphlet Correlation Distance, which
+measures the dissimilarity in graphlet-based wiring between two networks.
+
+
+
+|-------------+------------------------------+----------------------------------------------------------+---------------------------|
+| Model       | Generation principle         | Expected properties                                      | DOI                       |
+| Erdős-Rényi | Nodes are randomly connected | Relatively little cliques. Less high-degree nodes (hubs) | [[https://publi.math.unideb.hu/load_doi.php?pdoi=10_5486_PMD_1959_6_3_4_12][10.5486/pmd.1959.6.3-4.12]] |
+|             |                              |                                                          |                           |
+|-------------+------------------------------+----------------------------------------------------------+---------------------------|
+
