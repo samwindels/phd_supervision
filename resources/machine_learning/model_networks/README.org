@@ -10,12 +10,14 @@ process is known as `model network fitting'. The state-of-the-art
 network distance measure is the Graphlet Correlation Distance, which
 measures the dissimilarity in graphlet-based wiring between two networks.
 
+* Fundamental model networks
+
 The table below lists model networks we frequently use in our model
-network analysis, describing its generation principle, relevant
-properties and why we tend to use it. Note that this table is very
-terse, as many of these networks are well studied and have many
-properties and there are also many many more model networks out
-there. So, you should consider this list as a starting point.
+network analysis, describing their generation principles, relevant
+properties and why we use them. Note that this table is very terse, as
+many of these networks are well-studied and have many properties, and
+there are also many, many more model networks out there. So, consider
+this list as a starting point.
 
 |-------------+------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------+---------------------------|
 | Model       | Generation principle         | Expected properties                                       | Motivation                                                            | DOI                       |
@@ -23,3 +25,6 @@ there. So, you should consider this list as a starting point.
 |             |                              |                                                           |                                                                       |                           |
 |-------------+------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------+---------------------------|
 
+* Todo
+
+- add a reference to papers that do model fitting as an example
