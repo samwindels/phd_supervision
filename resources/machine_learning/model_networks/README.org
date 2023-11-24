@@ -10,11 +10,16 @@ process is known as `model network fitting'. The state-of-the-art
 network distance measure is the Graphlet Correlation Distance, which
 measures the dissimilarity in graphlet-based wiring between two networks.
 
+The table below lists model networks we frequently use in our model
+network analysis, describing its generation principle, relevant
+properties and why we tend to use it. Note that this table is very
+terse, as many of these networks are well studied and have many
+properties and there are also many many more model networks out
+there. So, you should consider this list as a starting point.
 
-
-|-------------+------------------------------+----------------------------------------------------------+---------------------------|
-| Model       | Generation principle         | Expected properties                                      | DOI                       |
-| Erdős-Rényi | Nodes are randomly connected | Relatively little cliques. Less high-degree nodes (hubs) | [[https://publi.math.unideb.hu/load_doi.php?pdoi=10_5486_PMD_1959_6_3_4_12][10.5486/pmd.1959.6.3-4.12]] |
-|             |                              |                                                          |                           |
-|-------------+------------------------------+----------------------------------------------------------+---------------------------|
+|-------------+------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------+---------------------------|
+| Model       | Generation principle         | Expected properties                                       | Motivation                                                            | DOI                       |
+| Erdős-Rényi | Nodes are randomly connected | Relatively little cliques. Less high-degree nodes (hubs). | If a real network does not fit ER, it means it is not randomly wired. | [[https://publi.math.unideb.hu/load_doi.php?pdoi=10_5486_PMD_1959_6_3_4_12][10.5486/pmd.1959.6.3-4.12]] |
+|             |                              |                                                           |                                                                       |                           |
+|-------------+------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------+---------------------------|
 
