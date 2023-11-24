@@ -8,9 +8,9 @@ network and a model network is low, it is assumed they have similar
 network properties. This process is known as `model network
 fitting'. The state-of-the-art network distance measure is the
 'Graphlet Correlation Distance', which measures the dissimilarity in
-graphlet-based wiring between two networks ([[https://doi.org/10.1038/srep04547][DOI: 10.1038/srep04547]]).
+graphlet-based wiring between two networks ([[https://doi.org/10.1038/srep04547][10.1038/srep04547]]).
 For an example of model network analysis, see the paper 'Towards a
-data-integrated cell' ([[https://doi.org/10.1038/s41467-019-08797-8][DOI: 10.1038/s41467-019-08797-8]]).
+data-integrated cell' ([[https://doi.org/10.1038/s41467-019-08797-8][10.1038/s41467-019-08797-8]]).
 
 * Fundamental model networks
 
