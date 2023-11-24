@@ -3,12 +3,12 @@
 Model networks are synthetic networks randomly generated
 according to different generation principles to achieve desired
 network properties. Model networks are often used comparatively
-against real networks. If the topological distance between a real
-network and a type of model network is low, it is assumed that the
-real network has network properties similar to the model network. This
-process is known as `model network fitting'. The state-of-the-art
-network distance measure is the Graphlet Correlation Distance, which
-measures the dissimilarity in graphlet-based wiring between two networks.
+against real networks: if the topological distance between a real
+network and a model network is low, it is assumed they have similar
+network properties. This process is known as `model network
+fitting'. The state-of-the-art network distance measure is the
+Graphlet Correlation Distance, which measures the dissimilarity in
+graphlet-based wiring between two networks.
 
 * Fundamental model networks
 
