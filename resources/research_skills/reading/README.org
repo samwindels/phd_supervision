@@ -40,6 +40,7 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 |------------------------+--------------------------------------------------------------------------------------------|
 | Name                   | Research focus                                                                             |
 |------------------------+--------------------------------------------------------------------------------------------|
+| [[https://scholar.google.com/citations?hl=en&user=DSiNzkIAAAAJ&view_op=list_works&sortby=pubdate][Alfred Hero]]            | Data fusion                                                                               |
 | [[https://scholar.google.com/citations?user=MNvzmN4AAAAJ&hl=en&oi=ao][Alex Arenas]]            | Complex networks, Complex systems, Applied mathematics, Synchronization, Modular Structure |
 | [[https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=en&oi=sra][Albert-László Barabási]] | Network science, Statistical physics, Biological Physics, Physics medicine                 |
 | [[https://scholar.google.com/citations?user=w2YDjVwAAAAJ&hl=nl&oi=ao][Andrew Teschendorff]]    | Cancer System-omics, Statistical Epigenomics, Single-Cell Systems Biology                  |
