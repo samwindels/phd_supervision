@@ -257,6 +257,18 @@ Download corresponding drivers [[https://www.nvidia.com/Download/index.aspx][her
 - top 25 noob habbits you need to ditch: https://www.youtube.com/watch?v=qUeud6DvOWI
 
 
+* Code using interfaces
+
+Benefits:
+- Code reusability: reuse methods, scripts within the same or even different projects 
+- Flexibility and extensibility: easily add, remove and replace parts of your pipeline
+- Modularity: everything has a clear scope. Get a better understanding of the code and runtime state (i.e., the value of variables)
+- Testability: small scopes are easy to test
+
+* Writing
+
+LaTeX is a markup language to typeset documents. A [[https://latex-tutorial.com/][good tutorial]] on LaTeX.
+
 * References;
 
 Tutorial on scientific computing:
