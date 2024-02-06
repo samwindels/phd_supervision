@@ -18,6 +18,7 @@ dependencies:
   - jupyterlab
   - ipython
   - snakemake  # pipeline and workflows
+  - cookiecutter  # install project templates
 
   # software development
   - ruff  # linting and auto code fixing
