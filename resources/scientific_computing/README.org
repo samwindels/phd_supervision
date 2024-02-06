@@ -30,7 +30,7 @@ Ofcourse, there are plenty of [[https://dev.to/bowmanjd/python-tools-for-managin
 
 ** Installing Micromamba
 
-To [[https://mamba.readthedocs.io/en/latest/micromamba-installation.html][install]] run:
+To install, run:
 #+begin_src bash
 "${SHELL}" <(curl -L micro.mamba.pm/install.sh
 #+end_src
@@ -38,7 +38,7 @@ Refresh your shell.
 
 ** Setting up an environment
 
-I included the [[file:default_env.yml][default_env.yml]] file, which descrives a basic environment:
+The [[file:default_env.yml][default_env.yml]] file describes the following basic environment:
 - The environment's name: default_env
 - python 3.12
 - A list of packages useful in data-science, software development and academia. 
