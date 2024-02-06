@@ -10,6 +10,8 @@ Approaches: interfaces
 
 * Setting up a Python environment with Micromamba (Conda)
 
+TODO: define what an environment is. make seperate page
+
 [[https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html][MicroMamba]] is: 
 - a drop-in replacement for "Conda". MicroMamba is written in c++ and
   therefore a lot faster than the Conda environment manager it
