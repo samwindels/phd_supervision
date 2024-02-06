@@ -8,13 +8,24 @@ Approaches: interfaces
 
 * A default Project structure
 
-* Setting up a Python environment with Mamba
+* Setting up a Python environment with Micro-mamba (conda)
 
-Mamba is: 
-- an environment manager. You can have different set-ups, i.e., versions of python and installed python libraries, for different projects. 
-- a system package manager. Conda can install different versions of python, python packages and other dependencies (e.g., libraries). This is useful in case a python package has non-python dependencies. For instance, GraphTool relies on the Boost c++ headers to be available, something you can't install via pip, as it can only install python packages. 
-- cross-platform, supporting linux, macOS and Windows. It alows you to easily replicate your environment on any another machine, which it is great for code portability.
-- a drop-in replacement for "Conda". Mamba is written in c++ and therefore a lot faster than the Conda it replaces. Any Conda commands should also work for Mamba.
+MicroMamba is: 
+- a drop-in replacement for "Conda". MicroMamba is written in c++ and
+  therefore a lot faster than the Conda it replaces. Conda
+  commands should work for Mamba and vice versa.
+- an environment manager. You can have different environments, i.e.,
+  versions of python and installed python libraries, for different
+  projects.
+- a system package manager. Conda can install different versions of
+  python, python packages and other dependencies (e.g.,
+  libraries). This is useful in case a python package has non-python
+  dependencies. For instance, Snakemake relies on certain c++
+  headers to be available. In contrast, pip can only install python
+  packages and can not solve other kinds of dependencies.
+- cross-platform, supporting linux, macOS and Windows. It alows you to
+  easily replicate your environment on any another machine, which it
+  is great for code portability (i.e. publishing reproducable papers).
 
 ** Install
 
@@ -26,25 +37,19 @@ To [[https://mamba.readthedocs.io/en/latest/micromamba-installation.html][instal
 #+end_src
 Refresh your shell.
 
-** Getting a better package list
-
-Like any package manager, Micromamba has a list of sources for packages it can install, called /channels/. To see the available channels run: 
-
-#+begin_src bash
-micromamba config list
-#+end_src
-
-Make sure you have "conda-forge", which is considered the most up-to-date channel and "bioconda, which lists packages used in biomedical research.  
-
 ** Setting up an environment
 
+I included the [[file:default_env.yml][default_env.yml]] file, which descrives a basic python environment:
+- The environment's name: default_env
+- python 3.12
+- A list of packages useful in data-science, software development and academia. 
+- The distribution channels 'conda-forge' and 'bioconda', where micromamba will look to download the listed packages
 
-** Alternatives
-
-[[https://www.nijho.lt/post/python-environments/#-system-package-managers][venv comparison]]
-
-
-
+To install and activate the environent:
+#+begin_src bash
+  micromamba create -f default_env.yml
+  micromamba activate default_env
+#+end_src
 
 * Buildning a project pipeline/workflow 
 
