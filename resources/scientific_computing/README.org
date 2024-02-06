@@ -268,6 +268,7 @@ Benefits:
 * Writing
 
 LaTeX is a markup language to typeset documents. A [[https://latex-tutorial.com/][good tutorial]] on LaTeX.
+[[https://github.com/egeerardyn/awesome-LaTeX#readme][Awesome LaTeX]] is  nice reference list of LaTeX packages, tutorials, etc.
 
 * References;
 
