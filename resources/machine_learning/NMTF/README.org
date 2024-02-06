@@ -25,9 +25,7 @@
 | Integrative methods for analyzing big data in precision medicine                | 1. Reviews data-fusion methods in applied in precision medicine                     | N. Pržulj | 2016 | [[https://doi.org/10.1002/pmic.201500396][10.1002/pmic.201500396]] |
 |---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------+------+------------------------|
 
-** Interesting methodological extensions
-
-In the table below we present some interesting NMTF algorithmic extensions.
+** Interesting algorithmic extensions
 
 |------------------------------------------------------------+---------------------------------+--------+------+------------------------------|
 | Title                                                      | Relevance                       | Group  | Year | DOI                          |
