@@ -20,6 +20,7 @@
 
 |---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------+------+------------------------|
 | Title                                                                           | Relevance                                                                           | Group     | Year | DOI                    |
+|---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------+------+------------------------|
 | Discovering disease-disease associations by fusing systems-level molecular data | 1. Initiated using NMTF-based methods for the fusion of heterogeneous of omics data | N. Pržulj | 2013 | [[https://doi.org/10.1038/srep03202][10.1038/srep03202]]      |
 | Methods for biological data integration: perspectives and challenges            | 1. Reviews data-fusion methods for omics data                                       | N. Pržulj | 2015 | [[http://dx.doi.org/10.1098/rsif.2015.0571][10.1098/rsif.2015.0571]] |
 | Integrative methods for analyzing big data in precision medicine                | 1. Reviews data-fusion methods in applied in precision medicine                     | N. Pržulj | 2016 | [[https://doi.org/10.1002/pmic.201500396][10.1002/pmic.201500396]] |
