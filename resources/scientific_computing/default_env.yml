@@ -30,3 +30,4 @@ dependencies:
   - pip:
     - betterbib  # bibfile formatting and auto completing 
     - papis  # reference management
+    - papis-scihub
