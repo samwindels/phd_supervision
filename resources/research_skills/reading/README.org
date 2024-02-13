@@ -45,6 +45,7 @@ Suggested RSS readers:
 | [[https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=en][Jure Leskovec]]          | ML, Data mining, Neural Networks, Knowledge Graphs, Complex Networks                        |
 | [[https://scholar.google.com/citations?user=jHDsgE0AAAAJ&hl=en&oi=ao][Jörg Menche]]            | Network Medicine, Systems Biology, Computational Biology, Network Science, VR               |
 | [[https://scholar.google.com/citations?user=CSMmegYAAAAJ&hl=en&oi=sra][Jörg Stelling]]          | Systems biology, Synthetic Biology                                                          |
+| [[https://scholar.google.com/citations?hl=en&user=v3JsjMYAAAAJ&view_op=list_works&sortby=pubdate][Karsten Borgwardt]]      | ML, Systems Biology, Data Mining, Bioinformatics, Computational Biology, Graph Kernels      |
 | [[https://scholar.google.com/citations?user=YtUDgPIAAAAJ][Marinka Zitnik]]         | ML, Geometric DL, Knowledge Graphs, Biomedical AI                                           |
 | [[https://scholar.google.com/citations?user=jUC0gLMAAAAJ&hl=en&oi=ao][Markus List]]            | Computational Biology, Bioinformatics, Regulatory genomics, Epigenomics Systems Medicine    |
 | [[https://scholar.google.com/citations?hl=en&user=UU3N6-UAAAAJ][Michael Bronstein]]      | Geometric DL, Graph Representation Learning, GNNs, Shape Analysis, Geometry processing      |
