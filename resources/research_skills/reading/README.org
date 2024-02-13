@@ -1,48 +1,35 @@
 #+TITLE: Reading
 
 
-** Bibliography management tools
+* Key Journals and conference proceedings
 
-Bibliography management tools are used to manage your 
-references/citations, article PDFs and notes.
+Key journals to follow and a link to their email alert system and/or RSS feed.
 
-It is suggested you have a single bibliography containing all of
-your references so that any corrections you make to your references
-persist across your projects.
+RSS readers:
+- [[https://github.com/newsboat/newsboat][newsboat]]
+- [[https://github.com/sp1ff/elfeed-score/][elfeed]]
 
-*Suggested tools:*
-- [[https://www.mendeley.com][Mendeley]] (crossplatform, GUI, has a web-browser citation import plugin)
-- [[https://github.com/papis/papis][Papis]] (command line tool)
-
-
-** Key Journals and conference proceedings
-
-Key journals to follow. Journals advertise their latest issue via an email alert system and/or RSS feed.
-Some journals also provide email alerts for call for papers.
-To sift through the cruft, you can use an RSS readers that supports
-automatically ranking entries (i.e., articles) based on the occurence
-of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
-
-|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
-| Name                  | Content                                                                                                                                                                                                   | RSS and alerts |
-|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
-| [[https://www.nature.com/][Nature]]                | The finest research in all fields on the basis of its originality, importance, interdisciplinary interest, ..., and surprising conclusions. Nature also provides news of topical and coming trends.       | [[https://www.nature.com/][Link]]           |
-| [[https://www.nature.com/ncomms/][Nature Communications]] | Multidisciplinary journal dedicated to publishing high-quality research in all areas of the biological, health, physical, chemical, ..., sciences. Papers represent important advances within each field. | [[https://www.nature.com/ncomms/][Link]]           |
-| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]] | Developments in genome bioinformatics and computational biology                                                                                                                                           | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Link]]           |
-| [[https://www.science.org/journal/science][Science]]               | Influential papers that significantly advance scientific understanding. They should merit recognition by the wider scientific community and general public, beyond that provided by specialty journals.   | [[https://www.science.org/content/page/email-alerts-and-rss-feeds][Link]]           |
-| [[https://www.nature.com/srep/][Scientific Reports]]    | Original research from across all areas of the natural sciences, psychology, medicine and engineering.                                                                                                    | [[https://www.nature.com/srep/][Link]]           |
-|-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
-
-** Key authors
+|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+| Name                        | Content                                                                                                                                                                                                   | RSS and alerts |
+|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+| [[https://www.nature.com/][Nature]]                      | The finest research in all fields on the basis of its originality, importance, interdisciplinary interest, ..., and surprising conclusions. Nature also provides news of topical and coming trends.       | [[https://www.nature.com/][Link]]           |
+| [[https://www.nature.com/ncomms/][Nature Communications]]       | Multidisciplinary journal dedicated to publishing high-quality research in all areas of the biological, health, physical, chemical, ..., sciences. Papers represent important advances within each field. | [[https://www.nature.com/ncomms/][Link]]           |
+| [[https://www.nature.com/natmachintell/][Nature Machine Intelligence]] | Nature Machine Intelligence publishes high-quality original research and reviews in a wide range of topics in machine learning, robotics and AI.                                                          | [[https://www.nature.com/natmachintell/][Link]]           |
+| [[https://nips.cc/][NeurIPS]]                     | THE ML conference.                                                                                                                                                                                        |                |
+| [[https://academic.oup.com/bioinformatics/pages/About][Oxford Bioinformatics]]       | Developments in genome bioinformatics and computational biology                                                                                                                                           | [[https://academic.oup.com/bioinformatics/supplements/volume?login=false][Link]]           |
+| [[https://www.science.org/journal/science][Science]]                     | Influential papers that significantly advance scientific understanding. They should merit recognition by the wider scientific community and general public, beyond that provided by specialty journals.   | [[https://www.science.org/content/page/email-alerts-and-rss-feeds][Link]]           |
+| [[https://www.nature.com/srep/][Scientific Reports]]          | Original research from across all areas of the natural sciences, psychology, medicine and engineering.                                                                                                    | [[https://www.nature.com/srep/][Link]]           |
+|-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+* Key authors
 
  Suggested researchers to follow on [[https://scholar.google.com/][Google Scholar]]. 
 
 |------------------------+--------------------------------------------------------------------------------------------|
-| Name                   | Research focus                                                                             |
+| Name                   | Research focus (according to their personal page)                                          |
 |------------------------+--------------------------------------------------------------------------------------------|
-| [[https://scholar.google.com/citations?hl=en&user=DSiNzkIAAAAJ&view_op=list_works&sortby=pubdate][Alfred Hero]]            | Data fusion                                                                                |
-| [[https://scholar.google.com/citations?user=MNvzmN4AAAAJ&hl=en&oi=ao][Alex Arenas]]            | Complex networks, Complex systems, Applied mathematics, Synchronization, Modular Structure |
 | [[https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=en&oi=sra][Albert-László Barabási]] | Network science, Statistical physics, Biological Physics, Physics medicine                 |
+| [[https://scholar.google.com/citations?user=MNvzmN4AAAAJ&hl=en&oi=ao][Alex Arenas]]            | Complex networks, Complex systems, Applied mathematics, Synchronization, Modular Structure |
+| [[https://scholar.google.com/citations?hl=en&user=DSiNzkIAAAAJ&view_op=list_works&sortby=pubdate][Alfred Hero]]            | Data fusion                                                                                |
 | [[https://scholar.google.com/citations?user=w2YDjVwAAAAJ&hl=nl&oi=ao][Andrew Teschendorff]]    | Cancer System-omics, Statistical Epigenomics, Single-Cell Systems Biology                  |
 | [[Https://scholar.google.com/citations?user=cEepZOEAAAAJ&hl=en][Anna Goldenberg]]        | ML, Computational Biology, Network Modeling, Disease heterogeneity, Data Integration       |
 | [[https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en&oi=ao][Bo Wang]]                | ML, Computational Biology, Computer Vision                                                 |
@@ -50,13 +37,14 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 | [[https://scholar.google.com/citations?user=aJOeGRoAAAAJ&hl=en&oi=ao][Dana Pe'er]]             | Systems Biology, Cancer Genomics, Computational Biology, Molecular Networks, Single Cell   |
 | [[https://scholar.google.com/citations?user=DHQy3wcHP4kC&hl=en&oi=ao][Desmond Higham]]         | Graph theory                                                                               |
 | [[https://scholar.google.com/citations?hl=en&user=X0zSDpcAAAAJ&view_op=list_works&sortby=pubdate][Ernesto Estrada]]        | Graph theory                                                                               |
-| [[https://scholar.google.com/citations?user=jUC0gLMAAAAJ&hl=en&oi=ao][Markus List]]            | Computational Biology, Bioinformatics, Regulatory genomics, Epigenomics Systems Medicine   |
 | [[https://scholar.google.com/citations?user=Hi9ALnkAAAAJ&hl=nl&oi=ao][Igor Jurisica]]          |                                                                                            |
+| [[https://scholar.google.com/citations?hl=en&user=23ZXZvEAAAAJ&view_op=list_works&sortby=pubdate][James Zou]]              | ML, Computational Biology, Computational Health, Statistics, Biotech                       |
 | [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]           | Bioinformatics, AI, Systems Biology, Systems Medicine                                      |
 | [[https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=en][Jure Leskovec]]          | ML, Data mining, Neural Networks, Knowledge Graphs, Complex Networks                       |
 | [[https://scholar.google.com/citations?user=jHDsgE0AAAAJ&hl=en&oi=ao][Jörg Menche]]            | Network Medicine, Systems Biology, Computational Biology, Network Science, VR              |
 | [[https://scholar.google.com/citations?user=CSMmegYAAAAJ&hl=en&oi=sra][Jörg Stelling]]          | Systems biology, Synthetic Biology                                                         |
 | [[https://scholar.google.com/citations?user=YtUDgPIAAAAJ][Marinka Zitnik]]         | ML, Geometric DL, Knowledge Graphs, Biomedical AI                                          |
+| [[https://scholar.google.com/citations?user=jUC0gLMAAAAJ&hl=en&oi=ao][Markus List]]            | Computational Biology, Bioinformatics, Regulatory genomics, Epigenomics Systems Medicine   |
 | [[https://scholar.google.com/citations?hl=en&user=UU3N6-UAAAAJ][Michael Bronstein]]      | Geometric DL, Graph Representation Learning, GNNs, Shape Analysis, Geometry processing     |
 | [[https://scholar.google.com/citations?user=ywFtAtMAAAAJ&hl=en&oi=ao][Noel Malod-Dognin]]      |                                                                                            |
 | [[https://scholar.google.com/citations?user=uhsaahAAAAAJ&hl=en&oi=ao][Patrick Aloy]]           | Network biology, Bioinformatics, Complex diseases                                          |
@@ -68,7 +56,36 @@ of key-words (e.g., [[https://github.com/sp1ff/elfeed-score/][elfeed]]).
 | [[https://scholar.google.com/citations?user=KnAit3cAAAAJ&hl=en][Trey Ideker]]            | Cancer, Systems Biology, Networks, Bioinformatics                                          |
 |------------------------+--------------------------------------------------------------------------------------------|
 
-** Synonyms
+* Sources
+
+A list of sources of articles and books.
+
+|--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Source       | Description                                                                                                                                                                    |
+| [[https://bibliotecnica.upc.edu/en/actualitat/ebib-el-teu-acces-a-la-biblioteca-digital][eBIB]]         | Access to journals, books and electronic databases provided by UPC. In case you are not part of UPC, you should request the 'UPC Digital Identity' via the [[https://webapps.bsc.es/employee/][HR employee portal]]. |
+| [[https://www.researchgate.net/][ResearchGate]] | A social platform for academics. You can request people to send you a copy of their paper(s).                                                                                  |
+| [[https://sci-hub.se/][sci-hub]]      | An illegal source for journal articles. Also has a [[https://addons.mozilla.org/en-US/firefox/addon/sci-hub-addon/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][Firefox]] and [[https://chromewebstore.google.com/detail/find-sci-paper/ocofgmnfmjndinnmdimpmijogpaljmal][Chrome]] plugin.                                                                                                  |
+| [[http://libgen.is/][libgen]]       | An illegal source for books.                                                                                                                                                   |
+|--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+* Bibliography management tools
+
+Bibliography management tools are used to manage your
+references/citations, article PDFs and notes. It is suggested you have
+a single bibliography containing all of your references so that any
+corrections that you make persist across your projects. In practice,
+you can use any of the tools below to manage your citation library and
+to export a list of citations in bibtex format to a `.bib'-file, which
+you than import in Word/LaTeX when writing.
+
+Tools:
+- [[https://www.zotero.org/][Zotero]]: crossplatform bibliography management application with GUI, supports varous plugins.
+- [[https://github.com/papis/papis][Papis]]: feature-rich python-based command line tool for bibliography management.
+- [[https://github.com/texworld/betterbib][BetterBib]]: barebones command line tool. Can add a reference to a bibtex
+  file from a DOI link. Can correct a bibtex file according to online
+  sources. That is it.
+
+* Synonyms
 
 Different terminology is sometimes used to refer to the
 same concept depending on the field. Below a list of frequently encountered synonyms.
