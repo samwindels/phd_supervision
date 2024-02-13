@@ -5,10 +5,6 @@
 
 Key journals to follow and a link to their email alert system and/or RSS feed.
 
-RSS readers:
-- [[https://github.com/newsboat/newsboat][newsboat]]
-- [[https://github.com/sp1ff/elfeed-score/][elfeed]]
-
 |-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
 | Name                        | Content                                                                                                                                                                                                   | RSS and alerts |
 |-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
@@ -20,6 +16,11 @@ RSS readers:
 | [[https://www.science.org/journal/science][Science]]                     | Influential papers that significantly advance scientific understanding. They should merit recognition by the wider scientific community and general public, beyond that provided by specialty journals.   | [[https://www.science.org/content/page/email-alerts-and-rss-feeds][Link]]           |
 | [[https://www.nature.com/srep/][Scientific Reports]]          | Original research from across all areas of the natural sciences, psychology, medicine and engineering.                                                                                                    | [[https://www.nature.com/srep/][Link]]           |
 |-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+Suggested RSS readers:
+- [[https://github.com/newsboat/newsboat][newsboat]]
+- [[https://github.com/sp1ff/elfeed-score/][elfeed]]
+- ...
+  
 * Key authors
 
  Suggested researchers to follow on [[https://scholar.google.com/][Google Scholar]]. 
@@ -35,8 +36,8 @@ RSS readers:
 | [[https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en&oi=ao][Bo Wang]]                | ML, Computational Biology, Computer Vision                                                 |
 | [[https://scholar.google.com/citations?user=b7xoXO0AAAAJ&hl=en&oi=ao][Carlo Cannistraci]]      | Network Science, Computational Biomedicine, Computational Neuroscience                     |
 | [[https://scholar.google.com/citations?user=aJOeGRoAAAAJ&hl=en&oi=ao][Dana Pe'er]]             | Systems Biology, Cancer Genomics, Computational Biology, Molecular Networks, Single Cell   |
-| [[https://scholar.google.com/citations?user=DHQy3wcHP4kC&hl=en&oi=ao][Desmond Higham]]         | Graph theory                                                                               |
-| [[https://scholar.google.com/citations?hl=en&user=X0zSDpcAAAAJ&view_op=list_works&sortby=pubdate][Ernesto Estrada]]        | Graph theory                                                                               |
+| [[https://scholar.google.com/citations?user=DHQy3wcHP4kC&hl=en&oi=ao][Desmond Higham]]         | Graph theory, AI vulnerabilities                                                           |
+| [[vulnarabilities://scholar.google.com/citations?hl=en&user=X0zSDpcAAAAJ&view_op=list_works&sortby=pubdate][Ernesto Estrada]]        | Graph theory                                                                               |
 | [[https://scholar.google.com/citations?user=Hi9ALnkAAAAJ&hl=nl&oi=ao][Igor Jurisica]]          |                                                                                            |
 | [[https://scholar.google.com/citations?hl=en&user=23ZXZvEAAAAJ&view_op=list_works&sortby=pubdate][James Zou]]              | ML, Computational Biology, Computational Health, Statistics, Biotech                       |
 | [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]           | Bioinformatics, AI, Systems Biology, Systems Medicine                                      |
