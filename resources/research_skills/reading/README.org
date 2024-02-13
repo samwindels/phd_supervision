@@ -25,37 +25,37 @@ Suggested RSS readers:
 
  Suggested researchers to follow on [[https://scholar.google.com/][Google Scholar]]. 
 
-|------------------------+--------------------------------------------------------------------------------------------|
-| Name                   | Research focus (according to their personal page)                                          |
-|------------------------+--------------------------------------------------------------------------------------------|
-| [[https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=en&oi=sra][Albert-László Barabási]] | Network science, Statistical physics, Biological Physics, Physics medicine                 |
-| [[https://scholar.google.com/citations?user=MNvzmN4AAAAJ&hl=en&oi=ao][Alex Arenas]]            | Complex networks, Complex systems, Applied mathematics, Synchronization, Modular Structure |
-| [[https://scholar.google.com/citations?hl=en&user=DSiNzkIAAAAJ&view_op=list_works&sortby=pubdate][Alfred Hero]]            | Data fusion                                                                                |
-| [[https://scholar.google.com/citations?user=w2YDjVwAAAAJ&hl=nl&oi=ao][Andrew Teschendorff]]    | Cancer System-omics, Statistical Epigenomics, Single-Cell Systems Biology                  |
-| [[Https://scholar.google.com/citations?user=cEepZOEAAAAJ&hl=en][Anna Goldenberg]]        | ML, Computational Biology, Network Modeling, Disease heterogeneity, Data Integration       |
-| [[https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en&oi=ao][Bo Wang]]                | ML, Computational Biology, Computer Vision                                                 |
-| [[https://scholar.google.com/citations?user=b7xoXO0AAAAJ&hl=en&oi=ao][Carlo Cannistraci]]      | Network Science, Computational Biomedicine, Computational Neuroscience                     |
-| [[https://scholar.google.com/citations?user=aJOeGRoAAAAJ&hl=en&oi=ao][Dana Pe'er]]             | Systems Biology, Cancer Genomics, Computational Biology, Molecular Networks, Single Cell   |
-| [[https://scholar.google.com/citations?user=DHQy3wcHP4kC&hl=en&oi=ao][Desmond Higham]]         | Graph theory, AI vulnerabilities                                                           |
-| [[vulnarabilities://scholar.google.com/citations?hl=en&user=X0zSDpcAAAAJ&view_op=list_works&sortby=pubdate][Ernesto Estrada]]        | Graph theory                                                                               |
-| [[https://scholar.google.com/citations?user=Hi9ALnkAAAAJ&hl=nl&oi=ao][Igor Jurisica]]          |                                                                                            |
-| [[https://scholar.google.com/citations?hl=en&user=23ZXZvEAAAAJ&view_op=list_works&sortby=pubdate][James Zou]]              | ML, Computational Biology, Computational Health, Statistics, Biotech                       |
-| [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]           | Bioinformatics, AI, Systems Biology, Systems Medicine                                      |
-| [[https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=en][Jure Leskovec]]          | ML, Data mining, Neural Networks, Knowledge Graphs, Complex Networks                       |
-| [[https://scholar.google.com/citations?user=jHDsgE0AAAAJ&hl=en&oi=ao][Jörg Menche]]            | Network Medicine, Systems Biology, Computational Biology, Network Science, VR              |
-| [[https://scholar.google.com/citations?user=CSMmegYAAAAJ&hl=en&oi=sra][Jörg Stelling]]          | Systems biology, Synthetic Biology                                                         |
-| [[https://scholar.google.com/citations?user=YtUDgPIAAAAJ][Marinka Zitnik]]         | ML, Geometric DL, Knowledge Graphs, Biomedical AI                                          |
-| [[https://scholar.google.com/citations?user=jUC0gLMAAAAJ&hl=en&oi=ao][Markus List]]            | Computational Biology, Bioinformatics, Regulatory genomics, Epigenomics Systems Medicine   |
-| [[https://scholar.google.com/citations?hl=en&user=UU3N6-UAAAAJ][Michael Bronstein]]      | Geometric DL, Graph Representation Learning, GNNs, Shape Analysis, Geometry processing     |
-| [[https://scholar.google.com/citations?user=ywFtAtMAAAAJ&hl=en&oi=ao][Noel Malod-Dognin]]      |                                                                                            |
-| [[https://scholar.google.com/citations?user=uhsaahAAAAAJ&hl=en&oi=ao][Patrick Aloy]]           | Network biology, Bioinformatics, Complex diseases                                          |
-| [[https://scholar.google.com/citations?user=ugj0at8AAAAJ&hl=en&oi=ao][Predrag Radivojac]]      | ML, Bioinformatics, Computational Biology, Data Mining                                     |
-| [[https://scholar.google.com/citations?user=clYCtpMAAAAJ&hl=en&oi=sra][Richard Röttger]]        | ML, DL, Bioinformatics, clustering                                                         |
-| [[https://scholar.google.com/citations?user=64G5UgMAAAAJ&hl=en&oi=ao][Roded Sharan]]           |                                                                                            |
-| [[https://scholar.google.com/citations?user=LUU0EFgAAAAJ&hl=en&oi=ao][Sophia Tsoka]]           | Bioinformatics                                                                             |
-| [[https://scholar.google.com/citations?user=QrS2y5sAAAAJ&hl=en&oi=ao][Tijana Milenkovic]]      | Computational Biology, Network Science, Biological Networks, Graph Theory, Algorithms      |
-| [[https://scholar.google.com/citations?user=KnAit3cAAAAJ&hl=en][Trey Ideker]]            | Cancer, Systems Biology, Networks, Bioinformatics                                          |
-|------------------------+--------------------------------------------------------------------------------------------|
+|------------------------+---------------------------------------------------------------------------------------------|
+| Name                   | Research focus (according to their personal page)                                           |
+|------------------------+---------------------------------------------------------------------------------------------|
+| [[https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=en&oi=sra][Albert-László Barabási]] | Network science, Statistical physics, Biological Physics, Physics medicine                  |
+| [[https://scholar.google.com/citations?user=MNvzmN4AAAAJ&hl=en&oi=ao][Alex Arenas]]            | Complex networks, Complex systems, Applied mathematics, Synchronization, Modular Structure  |
+| [[https://scholar.google.com/citations?hl=en&user=DSiNzkIAAAAJ&view_op=list_works&sortby=pubdate][Alfred Hero]]            | Data fusion                                                                                 |
+| [[https://scholar.google.com/citations?user=w2YDjVwAAAAJ&hl=nl&oi=ao][Andrew Teschendorff]]    | Cancer System-omics, Statistical Epigenomics, Single-Cell Systems Biology                   |
+| [[Https://scholar.google.com/citations?user=cEepZOEAAAAJ&hl=en][Anna Goldenberg]]        | ML, Computational Biology, Network Modeling, Disease heterogeneity, Data Integration        |
+| [[https://scholar.google.com/citations?user=37FDILIAAAAJ&hl=en&oi=ao][Bo Wang]]                | ML, Computational Biology, Computer Vision                                                  |
+| [[https://scholar.google.com/citations?user=b7xoXO0AAAAJ&hl=en&oi=ao][Carlo Cannistraci]]      | Network Science, Computational Biomedicine, Computational Neuroscience                      |
+| [[https://scholar.google.com/citations?user=aJOeGRoAAAAJ&hl=en&oi=ao][Dana Pe'er]]             | Systems Biology, Cancer Genomics, Computational Biology, Molecular Networks, Single Cell    |
+| [[https://scholar.google.com/citations?user=DHQy3wcHP4kC&hl=en&oi=ao][Desmond Higham]]         | Graph theory, AI vulnerabilities                                                            |
+| [[https://scholar.google.com/citations?hl=en&user=X0zSDpcAAAAJ&view_op=list_works&sortby=pubdate][Ernesto Estrada]]        | Graph theory, Network theory, Discrete Mathematics, Mathematical Chemistry, Spectral Theory |
+| [[https://scholar.google.com/citations?user=Hi9ALnkAAAAJ&hl=nl&oi=ao][Igor Jurisica]]          |                                                                                             |
+| [[https://scholar.google.com/citations?hl=en&user=23ZXZvEAAAAJ&view_op=list_works&sortby=pubdate][James Zou]]              | ML, Computational Biology, Computational Health, Statistics, Biotech                        |
+| [[https://scholar.google.com/citations?user=PWV8xOoAAAAJ&hl=en&oi=ao][Jan Baumbach]]           | Bioinformatics, AI, Systems Biology, Systems Medicine                                       |
+| [[https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=en][Jure Leskovec]]          | ML, Data mining, Neural Networks, Knowledge Graphs, Complex Networks                        |
+| [[https://scholar.google.com/citations?user=jHDsgE0AAAAJ&hl=en&oi=ao][Jörg Menche]]            | Network Medicine, Systems Biology, Computational Biology, Network Science, VR               |
+| [[https://scholar.google.com/citations?user=CSMmegYAAAAJ&hl=en&oi=sra][Jörg Stelling]]          | Systems biology, Synthetic Biology                                                          |
+| [[https://scholar.google.com/citations?user=YtUDgPIAAAAJ][Marinka Zitnik]]         | ML, Geometric DL, Knowledge Graphs, Biomedical AI                                           |
+| [[https://scholar.google.com/citations?user=jUC0gLMAAAAJ&hl=en&oi=ao][Markus List]]            | Computational Biology, Bioinformatics, Regulatory genomics, Epigenomics Systems Medicine    |
+| [[https://scholar.google.com/citations?hl=en&user=UU3N6-UAAAAJ][Michael Bronstein]]      | Geometric DL, Graph Representation Learning, GNNs, Shape Analysis, Geometry processing      |
+| [[https://scholar.google.com/citations?user=ywFtAtMAAAAJ&hl=en&oi=ao][Noel Malod-Dognin]]      |                                                                                             |
+| [[https://scholar.google.com/citations?user=uhsaahAAAAAJ&hl=en&oi=ao][Patrick Aloy]]           | Network biology, Bioinformatics, Complex diseases                                           |
+| [[https://scholar.google.com/citations?user=ugj0at8AAAAJ&hl=en&oi=ao][Predrag Radivojac]]      | ML, Bioinformatics, Computational Biology, Data Mining                                      |
+| [[https://scholar.google.com/citations?user=clYCtpMAAAAJ&hl=en&oi=sra][Richard Röttger]]        | ML, DL, Bioinformatics, clustering                                                          |
+| [[https://scholar.google.com/citations?user=64G5UgMAAAAJ&hl=en&oi=ao][Roded Sharan]]           |                                                                                             |
+| [[https://scholar.google.com/citations?user=LUU0EFgAAAAJ&hl=en&oi=ao][Sophia Tsoka]]           | Bioinformatics                                                                              |
+| [[https://scholar.google.com/citations?user=QrS2y5sAAAAJ&hl=en&oi=ao][Tijana Milenkovic]]      | Computational Biology, Network Science, Biological Networks, Graph Theory, Algorithms       |
+| [[https://scholar.google.com/citations?user=KnAit3cAAAAJ&hl=en][Trey Ideker]]            | Cancer, Systems Biology, Networks, Bioinformatics                                           |
+|------------------------+---------------------------------------------------------------------------------------------|
 
 * Sources
 
