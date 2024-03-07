@@ -32,7 +32,9 @@ this list as a starting point.
 * Model networks with communities
 
 There exist few real world networks with a known community structure
-(i.e., asignment of nodes to clusters/communities). So, to test 
+(i.e., asignment of nodes to clusters/communities). So, to evaluate
+clustering and community detection algorithms, usually syntetic
+benchmarks are used.
 
 |-----------------------+---------------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+----------------------------|
 | Model                 | Generalises         | Community type  | Generation principle                                                                                                                        | Properties                                                             | DOI                        |
