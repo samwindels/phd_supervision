@@ -1,4 +1,4 @@
-#+title: Model Networks
+#+title: Model Networks analysis
 
 Model networks are synthetic networks randomly generated
 according to different generation principles to achieve desired
@@ -12,7 +12,7 @@ graphlet-based wiring between two networks ([[https://doi.org/10.1038/srep04547]
 For an example of model network analysis, see the paper 'Towards a
 data-integrated cell' ([[https://doi.org/10.1038/s41467-019-08797-8][10.1038/s41467-019-08797-8]]).
 
-* Fundamental model networks
+* Model networks
 
 The table below lists model networks we frequently use in our model
 network analysis, describing their generation principles, relevant
@@ -21,8 +21,8 @@ many of these networks are well-studied and have many properties, and
 there are also many, many more model networks out there. So, consider
 this list as a starting point.
 
-|-------------+------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------+---------------------------|
-| Model       | Generation principle         | Expected properties                                       | Motivation                                                            | DOI                       |
-| Erdős-Rényi | Nodes are randomly connected | Relatively little cliques. Less high-degree nodes (hubs). | If a real network does not fit ER, it means it is not randomly wired. | [[https://publi.math.unideb.hu/load_doi.php?pdoi=10_5486_PMD_1959_6_3_4_12][10.5486/pmd.1959.6.3-4.12]] |
-|             |                              |                                                           |                                                                       |                           |
-|-------------+------------------------------+-----------------------------------------------------------+-----------------------------------------------------------------------+---------------------------|
+|---------------------+----------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------+------------------------------+------------------------------------------------------------------------------------------+---------------------------|
+| Model               | Motivation                                                                                                                       | Use case                                             | Generation principle         | Expected properties                                                                      | DOI                       |
+| Erdős-Rényi         | Models a network in which nodes are randomly connected.                                                                          | If a real network does not fit ER, it is non-random. | Nodes are randomly connected | Relatively little cliques. Less high-degree nodes (hubs). Posoisson degree distribution. | [[https://publi.math.unideb.hu/load_doi.php?pdoi=10_5486_PMD_1959_6_3_4_12][10.5486/pmd.1959.6.3-4.12]] |
+| Configuration model | Models a network in which the nodes are randomly connected, but with a given degree distribution (e.g., can be made scale-free). |                                                      | Hubs and spokes              |                                                                                          | [[https://doi.org/10.1002/rsa.3240060204][10.1002/rsa.3240060204]]    |
+|---------------------+----------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------+------------------------------+------------------------------------------------------------------------------------------+---------------------------|
