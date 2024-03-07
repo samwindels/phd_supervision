@@ -33,7 +33,7 @@ this list as a starting point.
 
 There exist few real world networks with a known community structure
 (i.e., asignment of nodes to clusters/communities). So, to evaluate
-clustering and community detection algorithms, usually syntetic
+clustering and community detection algorithms, usually synthetic
 benchmarks are used.
 
 |-----------------------+---------------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+----------------------------|
