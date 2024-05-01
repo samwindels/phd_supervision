@@ -58,20 +58,35 @@ group. Tou can check current usage running ~bsc_quota~.
 
 * Computational environment (modules)
 
-available environments:
+The Environment Module package is used to load software and libraries via modules.
+
+To list all currently loaded modules:
+
+#+begin_src bash
+module list
+#+end_src
+
+To list all available modules:
 #+begin_src bash
 module avail
 #+end_src
 
-load environment:
+To list all available modules starting with <string>:
+#+begin_src bash
+module avail <string>
+#+end_src
+
+
+To load a module:
 #+begin_src bash
  module  load <module name>
 #+end_src
 
-For instance:
+Ofcourse, for more detail on the module system, read the man pages:
 #+begin_src bash
- module load python/3.10.2
+ man module
 #+end_src
+
 
 * Jobsubmission
 
