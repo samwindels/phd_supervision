@@ -1,11 +1,11 @@
 
-#+TITLE: BSC HPC
+#+TITLE: BSC HPC: MareNostrum 5 Quickstart
 
 * Introduction
 
-This document summarises the BSC's HPC environment.  You can find the
-official documentation [[https://www.bsc.es/supportkc/][here]].  In this document should be viewed as a
-quickstart guide for MareNostrum 5 (MN5). It is by no means exhaustive. 
+This document is a
+quickstart guide for MareNostrum 5 (MN5). You can find the
+official documentation of the BSC's HPC enviroment [[https://www.bsc.es/supportkc/][here]]. 
 
 * System overview
 
@@ -41,9 +41,9 @@ BSC. These nodes not access the outside for security reasons.
 You can log in into one of the login and transfer nodes using ssh:
 
 #+BEGIN_SRC
-mylaptop$> ssh {username}@glogin1.bsc.es
-mylaptop$> ssh {username}@alogin1.bsc.es
-mylaptop$> ssh {username}@transfer1.bsc.es
+mylaptop$> ssh <username>@glogin1.bsc.es
+mylaptop$> ssh <username>@alogin1.bsc.es
+mylaptop$> ssh <username>@transfer1.bsc.es
 #+END_SRC
 
 To avoid being prompted for your password each time, you can setup a passkey, instructions [[https://wiki.archlinux.org/title/SSH_keys][here]].  
@@ -51,10 +51,10 @@ To avoid being prompted for your password each time, you can setup a passkey, in
 * GPFS
 
 The GPFS is a global file system, accessible from both the GPP and ACC
-nodes. There is shared storage space for your reserach group under
-~/gpfs/project/<GROUP>~ . In the case of ICONBI, the group is
-bsc79. There is a storage quota per group that you can check running
-~bsc_quota~.
+nodes. There is project data storage space available 
+~/gpfs/project/<GROUP>~.  In the case of ICONBI, the group is
+bsc79. Note that the storage quota is shared amonst the research
+group. Tou can check current usage running ~bsc_quota~.
 
 * Computational environment (modules)
 
