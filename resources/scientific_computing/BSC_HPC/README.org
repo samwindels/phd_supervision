@@ -82,6 +82,11 @@ To load a module:
  module  load <module name>
 #+end_src
 
+For instance, to load python on GPP:
+#+begin_src bash
+ module  load python/3.12.1
+#+end_src
+
 Ofcourse, for more detail on the module system, read the man pages:
 #+begin_src bash
  man module
