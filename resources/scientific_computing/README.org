@@ -56,60 +56,6 @@ To install and activate the environent:
 
 [[https://snakemake.readthedocs.io/en/stable/][SnakeMake]]
 
-* Installing python from source
-
-Install dependencies (opensuse) (for other platforms, see: [[https://docs.rstudio.com/resources/install-python-source/][link]])
-
-#+begin_src bash
-sudo zypper install \
-    automake \
-    fdupes \
-    gcc \
-    gcc-c++ \
-    gcc-fortran \
-    gdbm-devel \
-    gettext-tools \
-    gmp-devel \
-    intltool \
-    libbz2-devel \
-    libexpat-devel \
-    libffi-devel \
-    libnsl-devel \
-    lzma-devel \
-    make \
-    ncurses-devel \
-    netcfg \
-    openssl-devel \
-    pkgconfig \
-    readline-devel \
-    sqlite-devel \
-    xz \
-    zlib-devel
-#+end_src
-
-
-Download python source
-#+begin_src bash
-wget https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz
-#+end_src
-
-Unpack
-#+begin_src bash
-tar zxvf Python-3.10.4.tgz
-#+end_src
-
-Compile (using 4 cores) and install
-#+begin_src bash
-cd Python-3.10.4/
-./configure --enable-optimizations --enable-shared
-make -j 4
-sudo make install
-#+end_src
-
-Link libraries (bugfix)
-#+begin_src bash
-sudo ln -s /usr/local/lib64/python3.10/lib-dynload/ /usr/local/lib/python3.10/lib-dynload
-#+end_src
 
 setup virtual env: [[https://docs.python.org/3/library/venv.html][docs]] 
 
