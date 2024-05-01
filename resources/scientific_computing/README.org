@@ -38,7 +38,7 @@ To install, run:
 #+end_src
 Refresh your shell.
 
-** Setting up an environment
+** Setting up an Conda environment
 
 The [[file:default_env.yml][default_env.yml]] file describes the following basic environment:
 - The environment's name: default_env
@@ -52,10 +52,7 @@ To install and activate the environent:
   micromamba activate default_env
 #+end_src
 
-* Building a project pipeline/workflow 
-
-[[https://snakemake.readthedocs.io/en/stable/][SnakeMake]]
-
+** Setting up a virtual env
 
 setup virtual env: [[https://docs.python.org/3/library/venv.html][docs]] 
 
@@ -70,6 +67,11 @@ To launch the virtual environment, add the following alias to your .zshrc file :
 #+begin_src bash
 alias venvGCM='source ~/venvs/venvGCM/bin/activate'
 #+end_src
+
+* Building a project pipeline/workflow 
+
+[[https://snakemake.readthedocs.io/en/stable/][SnakeMake]]
+
 
 
 * Working remote
