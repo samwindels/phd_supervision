@@ -18,11 +18,15 @@ and provide resourses to achieve those goals
 
 
 ** Key skills to develop 
+
 Being able to synthesise papers/concepts/ideas/... to their esssence. This enables:
 - recognising related problems, so you can take inspiration from what other people have done
 - recognise limittions/weaknesses of your own methods, opening up new research problems
 - comunicate your ideas. A paper and a research proposal need to be sold!
 
-Modularity, analytical thinking
+** Key thinking skils that underly everything else
 
-Zooming
+  - modular thinking ~ analytical thinking
+  - hierarchical thinking
+  - critical thinking 
+
