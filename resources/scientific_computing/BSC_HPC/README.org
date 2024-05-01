@@ -3,9 +3,9 @@
 
 * Introduction
 
-This document summarises the BSC's HPC environment.
-You can find the official documentation [[https://www.bsc.es/supportkc/][here]].
-Notes below apply to MareNostrum 5 (MN5).
+This document summarises the BSC's HPC environment.  You can find the
+official documentation [[https://www.bsc.es/supportkc/][here]].  In this document should be viewed as a
+quickstart guide for MareNostrum 5 (MN5). It is by no means exhaustive. 
 
 * System overview
 
@@ -25,18 +25,28 @@ BSC. These nodes not access the outside for security reasons.
 |---------------+------------------+-----------|
 | Node type     | Node             | Partition |
 |---------------+------------------+-----------|
-| Login         | glogin1.bsc.es.  |           |
+| Login         | glogin1.bsc.es.  | GPP       |
 |               | glogin2.bsc.es   | GPP       |
 |---------------+------------------+-----------|
-| Login         | alogin1.bsc.es   |           |
+| Login         | alogin1.bsc.es   | ACC       |
 |               | alogin2.bsc.es   | ACC       |
 |---------------+------------------+-----------|
 | Data transfer | transfer1.bsc.es | shared    |
-|               | transfer2.bsc.es |           |
-|               | transfer3.bsc.es |           |
-|               | transfer4.bsc.es |           |
+|               | transfer2.bsc.es | shared    |
+|               | transfer3.bsc.es | shared    |
+|               | transfer4.bsc.es | shared    |
 |---------------+------------------+-----------|
+* Loging in
+
+
+
 * GPFS
+
+The GPFS is a global file system, accessible from both the GPP and ACC
+nodes. There is shared storage space for your reserach group under
+~/gpfs/project/<GROUP>~ . In the case of ICONBI, the group is
+bsc79. There is a storage quota per group that you can check running
+~bsc_quota~.
 
 * Computational environment (modules)
 
