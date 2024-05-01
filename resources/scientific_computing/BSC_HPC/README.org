@@ -1,0 +1,59 @@
+
+#+TITLE: BSC HPC
+
+* Introduction
+
+This document summarises the BSC's HPC environment.
+You can find the official documentation [[https://www.bsc.es/supportkc/][here]].
+Notes below apply to MareNostrum 5 (MN5).
+
+* System overview
+
+The computational nodes of MN5 belong to two groups: General Purpose
+Partition (GPP) and Accelerated Partition (ACC). The latter being
+fitted with GPU's. These are separate partitions, meaning the
+available environments, (e.g., python modules), may be different.
+All nodes have acces to the General Parallel File System (GPFS). 
+
+* Login and transfer nodes
+
+Jobs can be submitted to the computational nodes and data transfered
+to the GPFS via login-nodes and transfer-nodes, respectively. The
+login-nodes and transfer-nodes are accessible from outside the
+BSC. These nodes not access the outside for security reasons.
+
+|---------------+------------------+-----------|
+| Node type     | Node             | Partition |
+|---------------+------------------+-----------|
+| Login         | glogin1.bsc.es.  |           |
+|               | glogin2.bsc.es   | GPP       |
+|---------------+------------------+-----------|
+| Login         | alogin1.bsc.es   |           |
+|               | alogin2.bsc.es   | ACC       |
+|---------------+------------------+-----------|
+| Data transfer | transfer1.bsc.es | shared    |
+|               | transfer2.bsc.es |           |
+|               | transfer3.bsc.es |           |
+|               | transfer4.bsc.es |           |
+|---------------+------------------+-----------|
+* GPFS
+
+* Computational environment (modules)
+
+available environments:
+#+begin_src bash
+module avail
+#+end_src
+
+load environment:
+#+begin_src bash
+ module  load <module name>
+#+end_src
+
+For instance:
+#+begin_src bash
+ module load python/3.10.2
+#+end_src
+
+* Jobsubmission
+
