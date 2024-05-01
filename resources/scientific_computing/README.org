@@ -52,7 +52,7 @@ To install and activate the environent:
   micromamba activate default_env
 #+end_src
 
-* Buildning a project pipeline/workflow 
+* Building a project pipeline/workflow 
 
 [[https://snakemake.readthedocs.io/en/stable/][SnakeMake]]
 
