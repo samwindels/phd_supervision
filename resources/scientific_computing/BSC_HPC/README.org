@@ -91,7 +91,3 @@ Ofcourse, for more detail on the module system, read the man pages:
 #+begin_src bash
  man module
 #+end_src
-
-
-* Jobsubmission
-

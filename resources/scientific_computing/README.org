@@ -198,24 +198,6 @@ Note that in the case you are using MacOS as a local machine, you need to instal
 
 
 
-* HPC
-
-cluster documentation: https://www.bsc.es/supportkc/
-
-available environments:
-#+begin_src bash
-module avail
-#+end_src
-
-load environment:
-#+begin_src bash
- module  load <module name>
-#+end_src
-
-For instance:
-#+begin_src bash
- module load python/3.10.2
-#+end_src
 
 * GIT
 
