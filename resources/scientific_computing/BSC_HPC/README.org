@@ -36,9 +36,17 @@ BSC. These nodes not access the outside for security reasons.
 |               | transfer3.bsc.es | shared    |
 |               | transfer4.bsc.es | shared    |
 |---------------+------------------+-----------|
-* Loging in
+* Login
 
+You can log in into one of the login and transfer nodes using ssh:
 
+#+BEGIN_SRC
+mylaptop$> ssh {username}@glogin1.bsc.es
+mylaptop$> ssh {username}@alogin1.bsc.es
+mylaptop$> ssh {username}@transfer1.bsc.es
+#+END_SRC
+
+To avoid being prompted for your password each time, you can setup a passkey, instructions [[https://wiki.archlinux.org/title/SSH_keys][here]].  
 
 * GPFS
 
