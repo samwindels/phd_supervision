@@ -1,0 +1,65 @@
+#+TITLE: Setting up Jupyter Lab on a remote machine
+
+* Intro
+
+* Installing JupyterLab
+
+#+BEGIN_SRC 
+pip install jupyterlab
+#+END_SRC
+
+* Running the notebook locally
+
+* Remote access via ssh tunneling
+
+[[https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/][Link]].
+
+* Remote access via http
+
+The idea is to run JupyterLab on a remote machine and access it
+through the local web-browser. That is, in the local web-browser we
+want to enter the ip-address of the remote machine and the port on
+which JupyterLab is running, without the need of setting up an ssh
+tunnel.
+
+First, assuming the remote machine is does not have a public ip
+address but is accessed via VPN, we need to get the internal ip
+address of the remote machine. To get the internal ip address, run on the remote machine (e.g., using
+ssh):
+
+#+BEGIN_SRC
+hostname -I | awk '{print $1}'
+#+END_SRC
+
+Next, we start JupyterLab and make it listen on port 8084. You can choose a different port if you want to.
+On the remote machine, run:
+
+#+BEGIN_SRC
+jupyter lab --no-browser --port 8084 --ip <insert-internal-ip>
+#+END_SRC
+
+To check if port 8084 is open, we use netcat on the remote machine:
+#+BEGIN_SRC
+nc -z -v localhost 8084
+#+END_SRC
+
+In case this port is blocked we need to open it. First, we need to
+identify the firewall zone (default:'public') that is active:
+
+#+BEGIN_SRC 
+sudo firewall-cmd --get-default-zone
+#+END_SRC
+
+If the firewall is set to zone public, run the following commands to permantly open port 8084 and restart the firewall:
+#+BEGIN_SRC
+sudo firewall-cmd --zone=public --add-port=8084/tcp --permanent
+sudo firewall-cmd --reload
+#+END_SRC
+
+Now, going to <internal-ip>:8084 in the local web brower should be
+able to view jupyter lab. Unless you have added key-pairs, you will be
+asked for a token. In the terminal where you are running the notebook,
+you can simply copy paste this.
+
+
+
