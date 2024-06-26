@@ -10,6 +10,11 @@ pip install jupyterlab
 
 * Running the notebook locally
 
+
+#+BEGIN_SRC
+jupyter lab --no-browser
+#+END_SRC
+
 * Remote access via ssh tunneling
 
 [[https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/][Link]].
@@ -62,4 +67,9 @@ asked for a token. In the terminal where you are running the notebook,
 you can simply copy paste this.
 
 
+To set a default port and internal ip address (in case this is fixed),
+add the following to the file under '~/.jupyter/jupyter_notebook_config.py':
 
+c = get_config()
+c.ServerApp.ip = '<insert-internal-ip>
+c.ServerApp.port = 8084
