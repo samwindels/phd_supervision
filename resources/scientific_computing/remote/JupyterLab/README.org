@@ -70,8 +70,8 @@ you can simply copy paste this.
 To set a default port and internal ip address (in case this is fixed),
 add the following to the file under '~/.jupyter/jupyter_notebook_config.py':
 
+#+BEGIN_SRC
 c = get_config()
-
 c.ServerApp.ip = '<insert-internal-ip>
-
 c.ServerApp.port = 8084
+#+END_SRC
