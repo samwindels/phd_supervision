@@ -42,5 +42,6 @@ Here you can find references to generated graphs with certain topological proper
 
 |-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
 | Description                   | Database                | Article | Comments                                                                                             |
+|-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
 | Graph isoforms up to 11 nodes | [[https://users.cecs.anu.edu.au/~bdm/data/][McKay (see Graphs page)]] | [[https://users.cecs.anu.edu.au/~bdm/papers/LabelledEnumeration.pdf][Link]]    | Also provides the program 'Nauty' go generat them, which is also part of the [[https://github.com/sagemath][SageMath]] python library |
 |-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
