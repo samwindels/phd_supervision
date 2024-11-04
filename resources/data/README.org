@@ -1,30 +1,46 @@
 * Data
 
-In this directory, you can find an overview of biological data. If available,
+In this directory, you can find an overview of biological and network data. If available,
 scripts for processing the data into networks are provided in the scripts directory.
 
 Most importantly, use the provided scripts as a starting point. The
-scripts are not guaranteed to be bug-free (yet), so any bugs are your responsibility when using these scripts. As a PhD student, when you use these scripts, you are expected to understand what each line of code does and, crucially, what your network represents (e.g., what do the edges represent, what are the assumptions made).  Lastly, if you do find a bug, please fix them in this repository.
+scripts are not guaranteed to be bug-free (yet), so any bugs are your
+responsibility when using these scripts. As a PhD student, when you
+use these scripts, you are expected to understand what each line of
+code does and, crucially, what your network represents (e.g., what do
+the edges represent, what are the assumptions made).  Lastly, if you
+do find a bug, please fix them in this repository.
 
 To anyone adding scripts, please update the table below and, in the
 scripts, add a description of what the script does, the version number
 of the database it has been tested on and your name (so we know who to
 contact if something is not clear).
 
+** Biological data
+
 #+CAPTION: Different types of biological data
-|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
-| Data type                        | Network | Nodes            | Edges                                 | Database  | Script     |
-|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
-| Molecular interactions           | PPI     | genes            | physical interaction                  | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
-|                                  | DTI     | Drugs & genes    | drugs binding to genes                | [[http://ctdbase.org/][CTD]]       |            |
-|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
-| Functional associations          | GI      | genes            | genetic interaction                   | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
-|                                  | DG      | diseases & genes | disease-gene associations             | [[https://www.disgenet.org/][DisGeNET]]  |            |
-|                                  | DG      | diseases & genes | disease-gene associations             | [[http://ctdbase.org/][CTD]]       |            |
-|                                  | DD      | diseases & drugs | disease-drug associations             | [[http://ctdbase.org/][CTD]]       |            |
-|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
-| Functional/structural similarity | COEX    | genes            | expression profile similarity         | [[https://coxpresdb.jp/download/][COXPRESdb]] | [[scripts/coexdb.py][coexdb.py]]  |
-|                                  | D       | diseases         | disease-disease associations          | [[https://www.disgenet.org/][DisGeNET]]  |            |
-|                                  | DV      | diseases         | disease-disease variants associations | [[https://www.disgenet.org/][DisGeNET]]  |            |
-|  | DepMap | genes | expression profile similarity in cancer knockdowns | [[https://depmap.org/portal/download/all/][DepMap]] | |
-|----------------------------------+---------+------------------+---------------------------------------+-----------+------------|
+|----------------------------------+---------+------------------+----------------------------------------------------+-----------+------------|
+| Data type                        | Network | Nodes            | Edges                                              | Database  | Script     |
+|----------------------------------+---------+------------------+----------------------------------------------------+-----------+------------|
+| Molecular interactions           | PPI     | genes            | physical interaction                               | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
+|                                  | DTI     | Drugs & genes    | drugs binding to genes                             | [[http://ctdbase.org/][CTD]]       |            |
+|----------------------------------+---------+------------------+----------------------------------------------------+-----------+------------|
+| Functional associations          | GI      | genes            | genetic interaction                                | [[https://thebiogrid.org/][BioGRID]]   | [[scripts/biogrid.py][biogrid.py]] |
+|                                  | DG      | diseases & genes | disease-gene associations                          | [[https://www.disgenet.org/][DisGeNET]]  |            |
+|                                  | DG      | diseases & genes | disease-gene associations                          | [[http://ctdbase.org/][CTD]]       |            |
+|                                  | DD      | diseases & drugs | disease-drug associations                          | [[http://ctdbase.org/][CTD]]       |            |
+|----------------------------------+---------+------------------+----------------------------------------------------+-----------+------------|
+| Functional/structural similarity | COEX    | genes            | expression profile similarity                      | [[https://coxpresdb.jp/download/][COXPRESdb]] | [[scripts/coexdb.py][coexdb.py]]  |
+|                                  | D       | diseases         | disease-disease associations                       | [[https://www.disgenet.org/][DisGeNET]]  |            |
+|                                  | DV      | diseases         | disease-disease variants associations              | [[https://www.disgenet.org/][DisGeNET]]  |            |
+|                                  | DepMap  | genes            | expression profile similarity in cancer knockdowns | [[https://depmap.org/portal/download/all/][DepMap]]    |            |
+|----------------------------------+---------+------------------+----------------------------------------------------+-----------+------------|
+
+** Network data
+
+Here you can find references to generated graphs with certain topological properties.
+
+|-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
+| Description                   | Database                | Article | Comments                                                                                             |
+| Graph isoforms up to 11 nodes | [[https://users.cecs.anu.edu.au/~bdm/data/][McKay (see Graphs page)]] | [[https://users.cecs.anu.edu.au/~bdm/papers/LabelledEnumeration.pdf][Link]]    | Also provides the program 'Nauty' go generat them, which is also part of the [[https://github.com/sagemath][SageMath]] python library |
+|-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
