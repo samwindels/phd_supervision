@@ -40,8 +40,8 @@ contact if something is not clear).
 
 Here you can find references to generated graphs with certain topological properties.
 
-|-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
-| Description                   | Database                | Article | Comments                                                                                             |
-|-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
-| Graph isoforms up to 11 nodes | [[https://users.cecs.anu.edu.au/~bdm/data/][McKay (see Graphs page)]] | [[https://users.cecs.anu.edu.au/~bdm/papers/LabelledEnumeration.pdf][Link]]    | Also provides the program 'Nauty' go generat them, which is also part of the [[https://github.com/sagemath][SageMath]] python library |
-|-------------------------------+-------------------------+---------+------------------------------------------------------------------------------------------------------|
+|-------------------------------+-------------------------+---------------------------------+-------------------------------------------------------------------------------------------------------|
+| Description                   | Database                | Article                         | Comments                                                                                              |
+|-------------------------------+-------------------------+---------------------------------+-------------------------------------------------------------------------------------------------------|
+| Graph isoforms up to 11 nodes | [[https://users.cecs.anu.edu.au/~bdm/data/][McKay (see Graphs page)]] | [[https://users.cecs.anu.edu.au/~bdm/papers/LabelledEnumeration.pdf][Link]], [[https://doi.org/10.1016/j.jsc.2013.09.003][10.1016/j.jsc.2013.09.003]] | Also provides the program '[[https://pallini.di.uniroma1.it][Nauty]]' to generate them, which is also part of the [[https://github.com/sagemath][SageMath]] python library |
+|-------------------------------+-------------------------+---------------------------------+-------------------------------------------------------------------------------------------------------|
