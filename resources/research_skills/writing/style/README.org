@@ -34,6 +34,8 @@
 | Of up to (when indicating a limit or range) | Up to      | Considering orbit adjacencies and random walks of up to four nodes. |
 |---------------------------------------------+------------+---------------------------------------------------------------------|
 
+* Formal versus informal nouns
+
 |---------------+--------------|
 | Formal        | Informal     |
 |---------------+--------------|
@@ -43,7 +45,8 @@
 
 * Various things
 
-** "as" vs "since when "as" and "since" mean "because":
+** Using "as" or "since when they mean "because":
+
 Use "as" for practical reasons and "since" for logical reasons.
 
 For instance:
