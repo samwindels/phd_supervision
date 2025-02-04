@@ -9,8 +9,8 @@
 | Rule                                       | Example                                                                                                                                                                  | Exceptions       |
 |--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
 | Italicize Latin or other non-English terms | /et al./,                                                                                                                                                                | e.g., i.e., etc. |
-| Italicize terms when first defined.        | To precisely describe the local wiring structure, the state-of-the-art methods use \graphlets\, small, connected, non-isomorphic, induced sub-graphs of a large network. |                  |
-| Italicize technical terms on first use.    | \spectral embedding\, \node2vec\                                                                                                                                         |                  |
+| Italicize terms when first defined.        | To precisely describe the local wiring structure, the state-of-the-art methods use /graphlets/, small, connected, non-isomorphic, induced sub-graphs of a large network. |                  |
+| Italicize technical terms on first use.    | /spectral embedding/, /node2vec/                                                                                                                                        |                  |
 |                                            |                                                                                                                                                                          |                  |
 |--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
 
