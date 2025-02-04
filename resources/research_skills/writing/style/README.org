@@ -45,7 +45,7 @@
 
 * Various things
 
-** Using "as" or "since when they mean "because":
+** Using 'as' or 'since' when they mean 'because':
 
 Use "as" for practical reasons and "since" for logical reasons.
 
