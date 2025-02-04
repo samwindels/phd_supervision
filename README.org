@@ -26,7 +26,8 @@ Being able to synthesise papers/concepts/ideas/... to their esssence. This enabl
 
 ** Key thinking skills that underly everything else
 
-  - modular thinking ~ analytical thinking. interfaces ?
-  - hierarchical thinking
+  - analythical thinking (enables modular thinking and critical thinking)
+  - modular thinking . thinking in patterns helps recognising logical mistakes. thinking in terms of modules and interfaces leads to scalability.
+  - hierarchical thinking: different granularities of modular thinking.
   - critical thinking 
 
