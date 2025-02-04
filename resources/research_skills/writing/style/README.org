@@ -15,17 +15,41 @@
 |--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
 * Formal writing style
 
-|------+---------------------------------------------------------------------+------------------------------------------------------------|
-| Rule | Example                                                             | Counterexample                                             |
-|------+---------------------------------------------------------------------+------------------------------------------------------------|
-|      | The walk length determines the orbit adjacencies that are captured. | The walk length determines the orbit adjacencies captured. |
-|------+---------------------------------------------------------------------+------------------------------------------------------------|
+|-----------------------------------------+---------------------------------------------------------------------+------------------------------------------------------------|
+| Rule                                    | Example                                                             | Counterexample                                             |
+|-----------------------------------------+---------------------------------------------------------------------+------------------------------------------------------------|
+| Use 'that' on noun clauses for clarity. | The walk length determines the orbit adjacencies that are captured. | The walk length determines the orbit adjacencies captured. |
+|                                         | We believe that orbit adjacency provides ...                        | We believe orbit adjacency provides ...                    |
+|-----------------------------------------+---------------------------------------------------------------------+------------------------------------------------------------|
+
+
 
 
 * Standard phrases
 
-|---------------+------------|
-| Correct       | Incorrect  |
-|---------------+------------|
-| Both of these | Both these |
-|---------------+------------|
+|---------------------------------------------+------------+---------------------------------------------------------------------|
+| Correct                                     | Incorrect  | Example                                                             |
+|---------------------------------------------+------------+---------------------------------------------------------------------|
+| Both of these                               | Both these |                                                                     |
+| Of up to (when indicating a limit or range) | Up to      | Considering orbit adjacencies and random walks of up to four nodes. |
+|---------------------------------------------+------------+---------------------------------------------------------------------|
+
+|---------------+--------------|
+| Formal        | Informal     |
+|---------------+--------------|
+| Hence,        | So,          |
+| For instance, | For example, |
+|---------------+--------------|
+
+* Various things
+
+** "as" vs "since when "as" and "since" mean "because":
+Use "as" for practical reasons and "since" for logical reasons.
+
+For instance:
+- I did not deposit the cheque as the bank was closed.
+- I know I will make mistakes from time to time, since I am human.
+- While the source and sink nodes of random walks of length 3 also touch orbit adjacencies
+on four-node graphlets, we omit these as they are not relevant for our proof.
+- Random-walks are limited at capturing network topology, since they they miss and aggregate different topological signals. 
+
