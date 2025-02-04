@@ -10,7 +10,22 @@
 |--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
 | Italicize Latin or other non-English terms | /et al./,                                                                                                                                                                | e.g., i.e., etc. |
 | Italicize terms when first defined.        | To precisely describe the local wiring structure, the state-of-the-art methods use /graphlets/, small, connected, non-isomorphic, induced sub-graphs of a large network. |                  |
-| Italicize technical terms on first use.    | /spectral embedding/, /node2vec/                                                                                                                                        |                  |
+| Italicize technical terms on first use.    | /spectral embedding/, /node2vec/                                                                                                                                         |                  |
 |                                            |                                                                                                                                                                          |                  |
 |--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
+* Formal writing style
 
+|------+---------------------------------------------------------------------+------------------------------------------------------------|
+| Rule | Example                                                             | Counterexample                                             |
+|------+---------------------------------------------------------------------+------------------------------------------------------------|
+|      | The walk length determines the orbit adjacencies that are captured. | The walk length determines the orbit adjacencies captured. |
+|------+---------------------------------------------------------------------+------------------------------------------------------------|
+
+
+* Standard phrases
+
+|---------------+------------|
+| Correct       | Incorrect  |
+|---------------+------------|
+| Both of these | Both these |
+|---------------+------------|
