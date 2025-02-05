@@ -5,33 +5,30 @@
 
 * Formatting conventions
 
-|--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
-| Rule                                       | Example                                                                                                                                                                  | Exceptions       |
-|--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
-| Italicize Latin or other non-English terms | /et al./,                                                                                                                                                                | e.g., i.e., etc. |
-| Italicize terms when first defined.        | To precisely describe the local wiring structure, the state-of-the-art methods use /graphlets/, small, connected, non-isomorphic, induced sub-graphs of a large network. |                  |
-| Italicize technical terms on first use.    | /spectral embedding/, /node2vec/                                                                                                                                         |                  |
-|                                            |                                                                                                                                                                          |                  |
-|--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------|
+|--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------|
+| Rule                                       | Example                                                                                                                                                                  | Exceptions                 |
+|--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------|
+| Italicize Latin or other non-English terms | /et al./,                                                                                                                                                                | e.g., i.e., etc., post hoc |
+| Italicize terms when first defined.        | To precisely describe the local wiring structure, the state-of-the-art methods use /graphlets/, small, connected, non-isomorphic, induced sub-graphs of a large network. |                            |
+| Italicize technical terms on first use.    | /spectral embedding/, /node2vec/                                                                                                                                         |                            |
+|                                            |                                                                                                                                                                          |                            |
+|--------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------|
 * Formal writing style
 
 |-----------------------------------------+---------------------------------------------------------------------+------------------------------------------------------------|
 | Rule                                    | Example                                                             | Counterexample                                             |
 |-----------------------------------------+---------------------------------------------------------------------+------------------------------------------------------------|
-| Use 'that' on noun clauses for clarity. | The walk length determines the orbit adjacencies that are captured. | The walk length determines the orbit adjacencies captured. |
-|                                         | We believe that orbit adjacency provides ...                        | We believe orbit adjacency provides ...                    |
+| Use 'that' on noun clauses for clarity. | The walk length determines the orbit adjacencies _that_ are captured. | The walk length determines the orbit adjacencies captured. |
+|                                         | We believe _that_ orbit adjacency provides ...                      | We believe orbit adjacency provides ...                    |
 |-----------------------------------------+---------------------------------------------------------------------+------------------------------------------------------------|
-
-
-
 
 * Standard phrases
 
 |---------------------------------------------+------------+---------------------------------------------------------------------|
 | Correct                                     | Incorrect  | Example                                                             |
 |---------------------------------------------+------------+---------------------------------------------------------------------|
-| Both of these                               | Both these |                                                                     |
-| Of up to (when indicating a limit or range) | Up to      | Considering orbit adjacencies and random walks of up to four nodes. |
+| Both _of_ these                             | Both these |                                                                     |
+| _Of_ up to (when indicating a limit or range) | Up to      | Considering orbit adjacencies and random walks of up to four nodes. |
 |---------------------------------------------+------------+---------------------------------------------------------------------|
 
 * Formal versus informal nouns
@@ -45,7 +42,7 @@
 
 * Various things
 
-** Using 'as' or 'since' when they mean 'because':
+*** Using 'as' or 'since' when they mean 'because':
 
 Use "as" for practical reasons and "since" for logical reasons.
 
